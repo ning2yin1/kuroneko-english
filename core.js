@@ -9,8 +9,8 @@ export function makeQuestion(verb, field, random = Math.random) {
   const variants=verb[field].split(/\s*\/\s*/);
   const answer=verb.base==='be'&&field==='past'?'was':variants[0];
   const distractors=[...new Set(verb.choices[field])].filter(x=>!variants.includes(x));
-  if(distractors.length<4) throw new Error(`選択肢が不足: ${verb.base} ${field}`);
-  return {verb, field, answer, subject:verb.base==='be'&&field==='past'?'主語は I（私は）':null, choices:shuffle([answer,...shuffle(distractors,random).slice(0,4)],random)};
+  if(distractors.length<3) throw new Error(`選択肢が不足: ${verb.base} ${field}`);
+  return {verb, field, answer, subject:verb.base==='be'&&field==='past'?'主語は I（私は）':null, choices:shuffle([answer,...shuffle(distractors,random).slice(0,3)],random)};
 }
 export function makeQuiz(verbs, learned, random = Math.random) {
   const pool=shuffle(verbs.filter(v=>!learned.includes(v.id)),random);

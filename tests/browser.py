@@ -24,7 +24,7 @@ try:
    page.set_viewport_size({'width':width,'height':height})
    assert page.evaluate('document.documentElement.scrollHeight <= innerHeight'),f'scrolling at {width}x{height}'
    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'),f'horizontal overflow at {width}'
-   assert page.locator('.choice').count()==5
+   assert page.locator('.choice').count()==4
    for rect in page.locator('.choice').evaluate_all('(els)=>els.map(el=>el.getBoundingClientRect().toJSON())'):
     assert rect['height']>=44 and rect['bottom']<=height
   page.set_viewport_size({'width':390,'height':844})
@@ -88,7 +88,7 @@ try:
   page.reload()
   page.get_by_role('button',name='10問チャレンジをはじめる').wait_for()
   page.get_by_role('button',name='10問チャレンジをはじめる').click()
-  assert page.locator('.choice').count()==5
+  assert page.locator('.choice').count()==4
   assert not errors, errors
   print('PASS: 4 mobile sizes, 10 unique questions, perfect and partial results, filters, persistence, learned exclusion/unmarking, 0/1/3 remaining, GitHub Pages subpath, offline reload; no page errors.')
   browser.close()

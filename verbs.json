@@ -1,6 +1,6 @@
 {
   "app": "黒猫イングリッシュ",
-  "version": 1,
+  "version": 2,
   "notes": [
     "選択肢は各設問でシャッフルする",
     "カタカナは近似表記。英語音声を優先する",
@@ -24,12 +24,12 @@
       },
       "examples": {
         "past": {
-          "en": "I was busy yesterday.",
-          "ja": "私は昨日忙しかったです。"
+          "en": "I was tired last night.",
+          "ja": "私は昨夜、疲れていました。"
         },
         "participle": {
-          "en": "I have been busy today.",
-          "ja": "私は今日ずっと忙しいです。"
+          "en": "She has been sick since Monday.",
+          "ja": "彼女は月曜日からずっと具合が悪いです。"
         }
       },
       "choices": {
@@ -65,12 +65,12 @@
       },
       "examples": {
         "past": {
-          "en": "I had a cake yesterday.",
-          "ja": "私は昨日ケーキを食べました。"
+          "en": "We had pizza for dinner.",
+          "ja": "私たちは夕食にピザを食べました。"
         },
         "participle": {
-          "en": "I have had lunch.",
-          "ja": "私は昼食を食べました。"
+          "en": "I have had enough coffee today.",
+          "ja": "今日はもう十分コーヒーを飲みました。"
         }
       },
       "choices": {
@@ -105,12 +105,12 @@
       },
       "examples": {
         "past": {
-          "en": "I did my homework.",
-          "ja": "私は宿題をしました。"
+          "en": "I did the dishes after dinner.",
+          "ja": "私は夕食後に皿を洗いました。"
         },
         "participle": {
-          "en": "I have done my homework.",
-          "ja": "私は宿題を終えました。"
+          "en": "Have you done your homework yet?",
+          "ja": "もう宿題は終わりましたか？"
         }
       },
       "choices": {
@@ -145,12 +145,12 @@
       },
       "examples": {
         "past": {
-          "en": "I went to the store.",
-          "ja": "私は店に行きました。"
+          "en": "We went to the park yesterday.",
+          "ja": "私たちは昨日、公園に行きました。"
         },
         "participle": {
-          "en": "She has gone to school.",
-          "ja": "彼女は学校に行ってしまいました。"
+          "en": "My brother has gone to the store.",
+          "ja": "弟は店に出かけて、まだ戻っていません。"
         }
       },
       "choices": {
@@ -185,12 +185,12 @@
       },
       "examples": {
         "past": {
-          "en": "My friend came yesterday.",
-          "ja": "友達が昨日来ました。"
+          "en": "My friend came to my house.",
+          "ja": "友達が私の家に来ました。"
         },
         "participle": {
-          "en": "My friend has come home.",
-          "ja": "友達が家に帰ってきました。"
+          "en": "Spring has finally come.",
+          "ja": "ようやく春が来ました。"
         }
       },
       "choices": {
@@ -225,12 +225,12 @@
       },
       "examples": {
         "past": {
-          "en": "I got a letter.",
-          "ja": "私は手紙を受け取りました。"
+          "en": "I got a letter from my friend.",
+          "ja": "友達から手紙をもらいました。"
         },
         "participle": {
-          "en": "I have got a new bag.",
-          "ja": "私は新しいかばんを手に入れました。"
+          "en": "It has gotten cold outside.",
+          "ja": "外は寒くなりました。"
         }
       },
       "choices": {
@@ -266,12 +266,12 @@
       },
       "examples": {
         "past": {
-          "en": "I made dinner.",
-          "ja": "私は夕食を作りました。"
+          "en": "My mother made a cake.",
+          "ja": "母はケーキを作りました。"
         },
         "participle": {
-          "en": "I have made a cake.",
-          "ja": "私はケーキを作りました。"
+          "en": "This table was made by my father.",
+          "ja": "このテーブルは父が作りました。"
         }
       },
       "choices": {
@@ -306,12 +306,12 @@
       },
       "examples": {
         "past": {
-          "en": "I took a picture.",
-          "ja": "私は写真を撮りました。"
+          "en": "I took a picture of my cat.",
+          "ja": "私は猫の写真を撮りました。"
         },
         "participle": {
-          "en": "I have taken many pictures.",
-          "ja": "私はたくさん写真を撮りました。"
+          "en": "Someone has taken my umbrella.",
+          "ja": "誰かが私の傘を持っていってしまいました。"
         }
       },
       "choices": {
@@ -346,12 +346,12 @@
       },
       "examples": {
         "past": {
-          "en": "I saw a cat.",
-          "ja": "私は猫を見ました。"
+          "en": "I saw a rainbow this morning.",
+          "ja": "今朝、虹を見ました。"
         },
         "participle": {
-          "en": "I have seen that movie.",
-          "ja": "私はその映画を見たことがあります。"
+          "en": "Have you ever seen snow?",
+          "ja": "雪を見たことがありますか？"
         }
       },
       "choices": {
@@ -386,12 +386,12 @@
       },
       "examples": {
         "past": {
-          "en": "I ate breakfast.",
-          "ja": "私は朝食を食べました。"
+          "en": "I ate rice for breakfast.",
+          "ja": "私は朝食にご飯を食べました。"
         },
         "participle": {
-          "en": "I have eaten breakfast.",
-          "ja": "私は朝食をもう食べました。"
+          "en": "The children have eaten all the cookies.",
+          "ja": "子どもたちはクッキーを全部食べてしまいました。"
         }
       },
       "choices": {
@@ -422,16 +422,16 @@
       "reading": {
         "base": "ドゥリンク",
         "past": "ドゥランク",
-        "participle": "ドゥランク（過去形とは母音が異なる）"
+        "participle": "ドゥランク"
       },
       "examples": {
         "past": {
-          "en": "I drank some water.",
-          "ja": "私は水を飲みました。"
+          "en": "He drank a glass of water.",
+          "ja": "彼はコップ一杯の水を飲みました。"
         },
         "participle": {
-          "en": "I have drunk some water.",
-          "ja": "私は水を飲みました。"
+          "en": "I have already drunk my tea.",
+          "ja": "私はもうお茶を飲み終えました。"
         }
       },
       "choices": {
@@ -466,12 +466,12 @@
       },
       "examples": {
         "past": {
-          "en": "I gave her a gift.",
-          "ja": "私は彼女に贈り物をあげました。"
+          "en": "She gave me a flower.",
+          "ja": "彼女は私に花をくれました。"
         },
         "participle": {
-          "en": "I have given her a gift.",
-          "ja": "私は彼女に贈り物をあげました。"
+          "en": "The teacher has given us homework.",
+          "ja": "先生は私たちに宿題を出しました。"
         }
       },
       "choices": {
@@ -510,8 +510,8 @@
           "ja": "私は答えを知っていました。"
         },
         "participle": {
-          "en": "I have known her for years.",
-          "ja": "私は彼女と何年も前から知り合いです。"
+          "en": "We have known each other for years.",
+          "ja": "私たちは何年も前からの知り合いです。"
         }
       },
       "choices": {
@@ -546,12 +546,12 @@
       },
       "examples": {
         "past": {
-          "en": "I thought about you.",
-          "ja": "私はあなたのことを考えました。"
+          "en": "I thought the movie was funny.",
+          "ja": "私はその映画を面白いと思いました。"
         },
         "participle": {
-          "en": "I have thought about it.",
-          "ja": "私はそれについて考えました。"
+          "en": "I have thought about your idea.",
+          "ja": "あなたの考えについて考えてみました。"
         }
       },
       "choices": {
@@ -586,12 +586,12 @@
       },
       "examples": {
         "past": {
-          "en": "She said hello.",
-          "ja": "彼女はこんにちはと言いました。"
+          "en": "He said hello to me.",
+          "ja": "彼は私にあいさつしました。"
         },
         "participle": {
-          "en": "I have said that before.",
-          "ja": "私は前にもそれを言いました。"
+          "en": "She has said that many times.",
+          "ja": "彼女はそれを何度も言っています。"
         }
       },
       "choices": {
@@ -626,12 +626,12 @@
       },
       "examples": {
         "past": {
-          "en": "I told her the news.",
-          "ja": "私は彼女にその知らせを伝えました。"
+          "en": "My father told me a story.",
+          "ja": "父は私に物語を話してくれました。"
         },
         "participle": {
-          "en": "I have told her the news.",
-          "ja": "私は彼女にその知らせを伝えました。"
+          "en": "I have told you the truth.",
+          "ja": "私はあなたに本当のことを話しました。"
         }
       },
       "choices": {
@@ -666,12 +666,12 @@
       },
       "examples": {
         "past": {
-          "en": "I bought a book.",
-          "ja": "私は本を買いました。"
+          "en": "I bought new shoes yesterday.",
+          "ja": "私は昨日、新しい靴を買いました。"
         },
         "participle": {
-          "en": "I have bought some stocks.",
-          "ja": "私は株をいくつか買いました。"
+          "en": "Have you bought the tickets yet?",
+          "ja": "もうチケットを買いましたか？"
         }
       },
       "choices": {
@@ -706,12 +706,12 @@
       },
       "examples": {
         "past": {
-          "en": "I read a book yesterday.",
-          "ja": "私は昨日本を読みました。"
+          "en": "I read a book last night.",
+          "ja": "私は昨夜、本を読みました。"
         },
         "participle": {
-          "en": "I have read this book.",
-          "ja": "私はこの本を読んだことがあります。"
+          "en": "I have read this story before.",
+          "ja": "私は以前、この物語を読んだことがあります。"
         }
       },
       "choices": {
@@ -730,7 +730,7 @@
           "reading"
         ]
       },
-      "notes": "つづりは三つとも read。原形は「リード」、過去形・過去分詞は「レッド」。音声ボタンでは時制が分かる短い文を再生します。"
+      "notes": "原形 read は「リード」、過去形・過去分詞 read は「レッド」。つづりは同じ。"
     },
     {
       "id": "v019",
@@ -747,12 +747,12 @@
       },
       "examples": {
         "past": {
-          "en": "I wrote a letter.",
-          "ja": "私は手紙を書きました。"
+          "en": "She wrote a letter to her friend.",
+          "ja": "彼女は友達に手紙を書きました。"
         },
         "participle": {
-          "en": "I have written a letter.",
-          "ja": "私は手紙を書きました。"
+          "en": "This book was written in English.",
+          "ja": "この本は英語で書かれています。"
         }
       },
       "choices": {
@@ -787,12 +787,12 @@
       },
       "examples": {
         "past": {
-          "en": "I ran in the park.",
-          "ja": "私は公園で走りました。"
+          "en": "I ran to the bus stop.",
+          "ja": "私はバス停まで走りました。"
         },
         "participle": {
-          "en": "I have run five kilometers.",
-          "ja": "私は5キロ走りました。"
+          "en": "He has run five kilometers today.",
+          "ja": "彼は今日、5キロ走りました。"
         }
       },
       "choices": {
@@ -827,12 +827,12 @@
       },
       "examples": {
         "past": {
-          "en": "I spoke with my friend.",
-          "ja": "私は友達と話しました。"
+          "en": "She spoke English at the hotel.",
+          "ja": "彼女はホテルで英語を話しました。"
         },
         "participle": {
-          "en": "I have spoken with ChatGPT.",
-          "ja": "私はChatGPTと話しました。"
+          "en": "I have never spoken to him.",
+          "ja": "私は彼と一度も話したことがありません。"
         }
       },
       "choices": {
@@ -871,8 +871,8 @@
           "ja": "授業は9時に始まりました。"
         },
         "participle": {
-          "en": "The class has begun.",
-          "ja": "授業はもう始まりました。"
+          "en": "The movie has already begun.",
+          "ja": "映画はもう始まっています。"
         }
       },
       "choices": {
@@ -907,12 +907,12 @@
       },
       "examples": {
         "past": {
-          "en": "I broke my leg.",
-          "ja": "私は脚を骨折しました。"
+          "en": "I broke my favorite cup.",
+          "ja": "私はお気に入りのカップを割ってしまいました。"
         },
         "participle": {
-          "en": "I have broken my phone.",
-          "ja": "私は携帯電話を壊してしまいました。"
+          "en": "The window was broken by the wind.",
+          "ja": "窓は風で割れました。"
         }
       },
       "choices": {
@@ -947,12 +947,12 @@
       },
       "examples": {
         "past": {
-          "en": "I brought some cake.",
-          "ja": "私はケーキを持ってきました。"
+          "en": "He brought some flowers.",
+          "ja": "彼は花を何本か持ってきました。"
         },
         "participle": {
-          "en": "I have brought my bag.",
-          "ja": "私はかばんを持ってきました。"
+          "en": "I have brought my lunch today.",
+          "ja": "今日はお弁当を持ってきました。"
         }
       },
       "choices": {
@@ -987,12 +987,12 @@
       },
       "examples": {
         "past": {
-          "en": "They built a house.",
-          "ja": "彼らは家を建てました。"
+          "en": "They built a new bridge.",
+          "ja": "彼らは新しい橋を建設しました。"
         },
         "participle": {
-          "en": "They have built a house.",
-          "ja": "彼らは家を建てました。"
+          "en": "This house was built many years ago.",
+          "ja": "この家は何年も前に建てられました。"
         }
       },
       "choices": {
@@ -1031,8 +1031,8 @@
           "ja": "私はボールを捕りました。"
         },
         "participle": {
-          "en": "I have caught a fish.",
-          "ja": "私は魚を捕まえました。"
+          "en": "The thief was caught by the police.",
+          "ja": "泥棒は警察に捕まりました。"
         }
       },
       "choices": {
@@ -1067,12 +1067,12 @@
       },
       "examples": {
         "past": {
-          "en": "I chose the pink one.",
-          "ja": "私はピンクの方を選びました。"
+          "en": "She chose the blue dress.",
+          "ja": "彼女は青いドレスを選びました。"
         },
         "participle": {
-          "en": "I have chosen a dress.",
-          "ja": "私はドレスを選びました。"
+          "en": "I have chosen a birthday present.",
+          "ja": "私は誕生日プレゼントを選びました。"
         }
       },
       "choices": {
@@ -1107,12 +1107,12 @@
       },
       "examples": {
         "past": {
-          "en": "I cut the paper.",
-          "ja": "私は紙を切りました。"
+          "en": "He cut the paper with scissors.",
+          "ja": "彼ははさみで紙を切りました。"
         },
         "participle": {
-          "en": "I have cut the bread.",
-          "ja": "私はパンを切りました。"
+          "en": "The bread has already been cut.",
+          "ja": "パンはすでに切ってあります。"
         }
       },
       "choices": {
@@ -1147,12 +1147,12 @@
       },
       "examples": {
         "past": {
-          "en": "I drew a cat.",
-          "ja": "私は猫の絵を描きました。"
+          "en": "My daughter drew a cat.",
+          "ja": "娘は猫の絵を描きました。"
         },
         "participle": {
-          "en": "I have drawn a cat.",
-          "ja": "私は猫の絵を描きました。"
+          "en": "Have you ever drawn a picture of a dog?",
+          "ja": "犬の絵を描いたことがありますか？"
         }
       },
       "choices": {
@@ -1187,12 +1187,12 @@
       },
       "examples": {
         "past": {
-          "en": "I drove to work.",
-          "ja": "私は車で仕事に行きました。"
+          "en": "My sister drove to work.",
+          "ja": "姉は車で仕事に行きました。"
         },
         "participle": {
-          "en": "I have driven this car.",
-          "ja": "私はこの車を運転したことがあります。"
+          "en": "I have never driven a truck.",
+          "ja": "私はトラックを運転したことがありません。"
         }
       },
       "choices": {
@@ -1227,12 +1227,12 @@
       },
       "examples": {
         "past": {
-          "en": "I fell down.",
-          "ja": "私は転びました。"
+          "en": "The leaves fell from the tree.",
+          "ja": "葉っぱが木から落ちました。"
         },
         "participle": {
-          "en": "The leaves have fallen.",
-          "ja": "葉が落ちました。"
+          "en": "The little boy has fallen asleep.",
+          "ja": "小さな男の子は眠ってしまいました。"
         }
       },
       "choices": {
@@ -1267,8 +1267,8 @@
       },
       "examples": {
         "past": {
-          "en": "I felt happy.",
-          "ja": "私はうれしく感じました。"
+          "en": "I felt happy yesterday.",
+          "ja": "私は昨日、幸せな気持ちでした。"
         },
         "participle": {
           "en": "I have felt tired all day.",
@@ -1307,12 +1307,12 @@
       },
       "examples": {
         "past": {
-          "en": "I found my keys.",
-          "ja": "私は鍵を見つけました。"
+          "en": "I found my keys under the sofa.",
+          "ja": "ソファの下で鍵を見つけました。"
         },
         "participle": {
-          "en": "I have found my keys.",
-          "ja": "私は鍵を見つけました。"
+          "en": "Have you found your phone yet?",
+          "ja": "もう携帯電話は見つかりましたか？"
         }
       },
       "choices": {
@@ -1347,8 +1347,8 @@
       },
       "examples": {
         "past": {
-          "en": "I forgot my bag.",
-          "ja": "私はかばんを忘れました。"
+          "en": "I forgot my umbrella.",
+          "ja": "私は傘を忘れました。"
         },
         "participle": {
           "en": "I have forgotten his name.",
@@ -1387,12 +1387,12 @@
       },
       "examples": {
         "past": {
-          "en": "I heard a noise.",
-          "ja": "私は物音を聞きました。"
+          "en": "I heard a strange sound.",
+          "ja": "私は変な音を聞きました。"
         },
         "participle": {
-          "en": "I have heard this song.",
-          "ja": "私はこの歌を聞いたことがあります。"
+          "en": "Have you heard this song before?",
+          "ja": "この歌を以前に聞いたことがありますか？"
         }
       },
       "choices": {
@@ -1427,12 +1427,12 @@
       },
       "examples": {
         "past": {
-          "en": "I kept the door open.",
-          "ja": "私はドアを開けたままにしました。"
+          "en": "She kept the old letters.",
+          "ja": "彼女は古い手紙を取っておきました。"
         },
         "participle": {
-          "en": "I have kept this photo.",
-          "ja": "私はこの写真をずっと持っています。"
+          "en": "I have kept this photo for years.",
+          "ja": "私はこの写真を何年も大切に持っています。"
         }
       },
       "choices": {
@@ -1467,12 +1467,12 @@
       },
       "examples": {
         "past": {
-          "en": "I left home at eight.",
-          "ja": "私は8時に家を出ました。"
+          "en": "He left home at seven.",
+          "ja": "彼は7時に家を出ました。"
         },
         "participle": {
-          "en": "She has left home.",
-          "ja": "彼女は家を出てしまいました。"
+          "en": "The train has already left.",
+          "ja": "電車はもう出発してしまいました。"
         }
       },
       "choices": {
@@ -1507,12 +1507,12 @@
       },
       "examples": {
         "past": {
-          "en": "I lost my pen.",
-          "ja": "私はペンをなくしました。"
+          "en": "I lost my wallet yesterday.",
+          "ja": "私は昨日、財布をなくしました。"
         },
         "participle": {
-          "en": "I have lost my pen.",
-          "ja": "私はペンをなくしてしまいました。"
+          "en": "She has lost her glasses again.",
+          "ja": "彼女はまた眼鏡をなくしてしまいました。"
         }
       },
       "choices": {
@@ -1547,12 +1547,12 @@
       },
       "examples": {
         "past": {
-          "en": "I met my friend.",
-          "ja": "私は友達に会いました。"
+          "en": "I met my friend at the station.",
+          "ja": "私は駅で友達に会いました。"
         },
         "participle": {
-          "en": "I have met her before.",
-          "ja": "私は以前彼女に会ったことがあります。"
+          "en": "Have you ever met her mother?",
+          "ja": "彼女のお母さんに会ったことがありますか？"
         }
       },
       "choices": {
@@ -1587,12 +1587,12 @@
       },
       "examples": {
         "past": {
-          "en": "I put the cup here.",
-          "ja": "私はここにコップを置きました。"
+          "en": "I put the book on the table.",
+          "ja": "私は本をテーブルの上に置きました。"
         },
         "participle": {
-          "en": "I have put the cup here.",
-          "ja": "私はここにコップを置きました。"
+          "en": "I have put your bag by the door.",
+          "ja": "あなたのバッグをドアのそばに置いておきました。"
         }
       },
       "choices": {
@@ -1627,12 +1627,12 @@
       },
       "examples": {
         "past": {
-          "en": "I sent an email.",
-          "ja": "私はメールを送りました。"
+          "en": "She sent me a message.",
+          "ja": "彼女は私にメッセージを送りました。"
         },
         "participle": {
-          "en": "I have sent an email.",
-          "ja": "私はメールを送りました。"
+          "en": "I have sent the email already.",
+          "ja": "私はもうメールを送りました。"
         }
       },
       "choices": {
@@ -1667,12 +1667,12 @@
       },
       "examples": {
         "past": {
-          "en": "I sang a song.",
-          "ja": "私は歌を歌いました。"
+          "en": "We sang a song together.",
+          "ja": "私たちは一緒に歌を歌いました。"
         },
         "participle": {
-          "en": "I have sung this song.",
-          "ja": "私はこの歌を歌ったことがあります。"
+          "en": "This song has been sung for many years.",
+          "ja": "この歌は長年歌われてきました。"
         }
       },
       "choices": {
@@ -1707,12 +1707,12 @@
       },
       "examples": {
         "past": {
-          "en": "I sat on the chair.",
-          "ja": "私は椅子に座りました。"
+          "en": "He sat next to me.",
+          "ja": "彼は私の隣に座りました。"
         },
         "participle": {
-          "en": "I have sat here before.",
-          "ja": "私は前にここに座ったことがあります。"
+          "en": "I have sat here for an hour.",
+          "ja": "私はここに1時間座っています。"
         }
       },
       "choices": {
@@ -1747,12 +1747,12 @@
       },
       "examples": {
         "past": {
-          "en": "I slept well.",
-          "ja": "私はよく眠りました。"
+          "en": "I slept well last night.",
+          "ja": "私は昨夜、よく眠れました。"
         },
         "participle": {
-          "en": "I have slept for eight hours.",
-          "ja": "私は8時間眠りました。"
+          "en": "The baby has slept for three hours.",
+          "ja": "赤ちゃんは3時間眠っています。"
         }
       },
       "choices": {
@@ -1787,12 +1787,12 @@
       },
       "examples": {
         "past": {
-          "en": "I stood by the door.",
-          "ja": "私はドアのそばに立ちました。"
+          "en": "We stood in a long line.",
+          "ja": "私たちは長い列に並びました。"
         },
         "participle": {
-          "en": "I have stood here before.",
-          "ja": "私は以前ここに立ったことがあります。"
+          "en": "She has stood there for ten minutes.",
+          "ja": "彼女はそこに10分間立っています。"
         }
       },
       "choices": {
@@ -1827,12 +1827,12 @@
       },
       "examples": {
         "past": {
-          "en": "I swam in the pool.",
-          "ja": "私はプールで泳ぎました。"
+          "en": "I swam in the pool yesterday.",
+          "ja": "私は昨日、プールで泳ぎました。"
         },
         "participle": {
-          "en": "I have swum in the sea.",
-          "ja": "私は海で泳いだことがあります。"
+          "en": "Have you ever swum in the sea?",
+          "ja": "海で泳いだことがありますか？"
         }
       },
       "choices": {
@@ -1867,12 +1867,12 @@
       },
       "examples": {
         "past": {
-          "en": "I taught children.",
-          "ja": "私は子どもたちを教えました。"
+          "en": "She taught music at a school.",
+          "ja": "彼女は学校で音楽を教えていました。"
         },
         "participle": {
-          "en": "I have taught at a nursery school.",
-          "ja": "私は保育園で教えたことがあります。"
+          "en": "My mother has taught children for many years.",
+          "ja": "母は長年、子どもたちに教えてきました。"
         }
       },
       "choices": {
@@ -1908,11 +1908,11 @@
       "examples": {
         "past": {
           "en": "I understood the question.",
-          "ja": "私は質問を理解しました。"
+          "ja": "私はその質問の意味が分かりました。"
         },
         "participle": {
-          "en": "I have understood the lesson.",
-          "ja": "私は授業の内容を理解しました。"
+          "en": "I have finally understood the rule.",
+          "ja": "私はようやくそのルールを理解しました。"
         }
       },
       "choices": {
@@ -1947,12 +1947,12 @@
       },
       "examples": {
         "past": {
-          "en": "I wore a pink shirt.",
-          "ja": "私はピンクのシャツを着ました。"
+          "en": "She wore a red coat yesterday.",
+          "ja": "彼女は昨日、赤いコートを着ていました。"
         },
         "participle": {
-          "en": "I have worn this dress before.",
-          "ja": "私は以前このドレスを着たことがあります。"
+          "en": "I have never worn a hat like that.",
+          "ja": "私はあんな帽子をかぶったことがありません。"
         }
       },
       "choices": {
@@ -1987,12 +1987,12 @@
       },
       "examples": {
         "past": {
-          "en": "Our team won.",
-          "ja": "私たちのチームは勝ちました。"
+          "en": "Our team won the game.",
+          "ja": "私たちのチームは試合に勝ちました。"
         },
         "participle": {
-          "en": "Our team has won the game.",
-          "ja": "私たちのチームは試合に勝ちました。"
+          "en": "She has won three prizes.",
+          "ja": "彼女はこれまでに賞を3つ受賞しています。"
         }
       },
       "choices": {
@@ -2027,12 +2027,12 @@
       },
       "examples": {
         "past": {
-          "en": "She became a teacher.",
-          "ja": "彼女は先生になりました。"
+          "en": "He became a teacher.",
+          "ja": "彼は先生になりました。"
         },
         "participle": {
-          "en": "She has become a teacher.",
-          "ja": "彼女は先生になりました。"
+          "en": "My little brother has become taller.",
+          "ja": "弟は背が高くなりました。"
         }
       },
       "choices": {
@@ -2067,12 +2067,12 @@
       },
       "examples": {
         "past": {
-          "en": "The wind blew hard.",
-          "ja": "風が強く吹きました。"
+          "en": "The wind blew all night.",
+          "ja": "一晩中、風が吹いていました。"
         },
         "participle": {
-          "en": "The wind has blown all day.",
-          "ja": "風が一日中吹いています。"
+          "en": "The candles have been blown out.",
+          "ja": "ろうそくの火は吹き消されました。"
         }
       },
       "choices": {
@@ -2107,12 +2107,12 @@
       },
       "examples": {
         "past": {
-          "en": "The bird flew away.",
-          "ja": "鳥は飛んでいきました。"
+          "en": "A bird flew over the house.",
+          "ja": "鳥が家の上を飛んでいきました。"
         },
         "participle": {
-          "en": "The bird has flown away.",
-          "ja": "鳥は飛んでいってしまいました。"
+          "en": "Have you ever flown on a plane?",
+          "ja": "飛行機に乗ったことがありますか？"
         }
       },
       "choices": {
@@ -2147,12 +2147,12 @@
       },
       "examples": {
         "past": {
-          "en": "The flowers grew fast.",
-          "ja": "花は早く育ちました。"
+          "en": "The flowers grew quickly.",
+          "ja": "花はすくすく育ちました。"
         },
         "participle": {
-          "en": "The flowers have grown.",
-          "ja": "花が育ちました。"
+          "en": "My son has grown a lot this year.",
+          "ja": "息子は今年、とても大きくなりました。"
         }
       },
       "choices": {
@@ -2187,12 +2187,12 @@
       },
       "examples": {
         "past": {
-          "en": "I hit the ball.",
-          "ja": "私はボールを打ちました。"
+          "en": "The ball hit the window.",
+          "ja": "ボールが窓に当たりました。"
         },
         "participle": {
-          "en": "I have hit the ball before.",
-          "ja": "私は以前そのボールを打ったことがあります。"
+          "en": "The window was hit by a ball.",
+          "ja": "窓にボールが当たりました。"
         }
       },
       "choices": {
@@ -2227,12 +2227,12 @@
       },
       "examples": {
         "past": {
-          "en": "I held the baby.",
-          "ja": "私は赤ちゃんを抱きました。"
+          "en": "She held the baby gently.",
+          "ja": "彼女は赤ちゃんを優しく抱きました。"
         },
         "participle": {
-          "en": "I have held a baby before.",
-          "ja": "私は以前赤ちゃんを抱いたことがあります。"
+          "en": "I have held this bag all morning.",
+          "ja": "私は午前中ずっとこのバッグを持っています。"
         }
       },
       "choices": {
@@ -2267,12 +2267,12 @@
       },
       "examples": {
         "past": {
-          "en": "My knee hurt yesterday.",
-          "ja": "昨日は膝が痛かったです。"
+          "en": "I hurt my knee while running.",
+          "ja": "私は走っているときに膝を痛めました。"
         },
         "participle": {
-          "en": "My knee has hurt all day.",
-          "ja": "膝が一日中痛いです。"
+          "en": "He has hurt his hand.",
+          "ja": "彼は手をけがしてしまいました。"
         }
       },
       "choices": {
@@ -2311,8 +2311,8 @@
           "ja": "私は昼食代を払いました。"
         },
         "participle": {
-          "en": "I have paid the bill.",
-          "ja": "私は支払いを済ませました。"
+          "en": "The bill has already been paid.",
+          "ja": "請求書の支払いはすでに済んでいます。"
         }
       },
       "choices": {
@@ -2347,12 +2347,12 @@
       },
       "examples": {
         "past": {
-          "en": "I rode a bike.",
-          "ja": "私は自転車に乗りました。"
+          "en": "We rode our bikes to the park.",
+          "ja": "私たちは自転車で公園に行きました。"
         },
         "participle": {
-          "en": "I have ridden a horse.",
-          "ja": "私は馬に乗ったことがあります。"
+          "en": "Have you ever ridden a horse?",
+          "ja": "馬に乗ったことがありますか？"
         }
       },
       "choices": {
@@ -2387,12 +2387,12 @@
       },
       "examples": {
         "past": {
-          "en": "I sold my old bag.",
-          "ja": "私は古いかばんを売りました。"
+          "en": "He sold his old bicycle.",
+          "ja": "彼は古い自転車を売りました。"
         },
         "participle": {
-          "en": "I have sold some stocks.",
-          "ja": "私は株をいくつか売りました。"
+          "en": "All the tickets have been sold.",
+          "ja": "チケットはすべて売り切れました。"
         }
       },
       "choices": {
@@ -2427,12 +2427,12 @@
       },
       "examples": {
         "past": {
-          "en": "I played the piano.",
-          "ja": "私はピアノを弾きました。"
+          "en": "The children played outside.",
+          "ja": "子どもたちは外で遊びました。"
         },
         "participle": {
-          "en": "I have played volleyball.",
-          "ja": "私はバレーボールをしたことがあります。"
+          "en": "I have played the piano since I was young.",
+          "ja": "私は子どもの頃からピアノを弾いています。"
         }
       },
       "choices": {
@@ -2467,12 +2467,12 @@
       },
       "examples": {
         "past": {
-          "en": "I liked that cake.",
-          "ja": "私はそのケーキが好きでした。"
+          "en": "I liked the chocolate cake.",
+          "ja": "私はそのチョコレートケーキが気に入りました。"
         },
         "participle": {
           "en": "I have always liked cats.",
-          "ja": "私はずっと猫が好きです。"
+          "ja": "私は昔から猫が好きです。"
         }
       },
       "choices": {
@@ -2507,12 +2507,12 @@
       },
       "examples": {
         "past": {
-          "en": "I loved the movie.",
-          "ja": "私はその映画が大好きでした。"
+          "en": "She loved the birthday gift.",
+          "ja": "彼女は誕生日プレゼントをとても気に入りました。"
         },
         "participle": {
-          "en": "I have always loved sweets.",
-          "ja": "私は昔から甘いものが大好きです。"
+          "en": "I have loved this song for years.",
+          "ja": "私は何年もこの曲が大好きです。"
         }
       },
       "choices": {
@@ -2547,12 +2547,12 @@
       },
       "examples": {
         "past": {
-          "en": "I wanted some tea.",
-          "ja": "私はお茶が欲しかったです。"
+          "en": "I wanted a glass of water.",
+          "ja": "私は水が一杯欲しかったです。"
         },
         "participle": {
-          "en": "I have wanted this bag for years.",
-          "ja": "私は何年もこのかばんが欲しかったです。"
+          "en": "I have always wanted a dog.",
+          "ja": "私はずっと犬を飼いたいと思っていました。"
         }
       },
       "choices": {
@@ -2587,12 +2587,12 @@
       },
       "examples": {
         "past": {
-          "en": "I worked yesterday.",
-          "ja": "私は昨日働きました。"
+          "en": "My father worked on Sunday.",
+          "ja": "父は日曜日に働きました。"
         },
         "participle": {
-          "en": "I have worked here for years.",
-          "ja": "私はここで何年も働いています。"
+          "en": "She has worked here for five years.",
+          "ja": "彼女はここで5年間働いています。"
         }
       },
       "choices": {
@@ -2627,12 +2627,12 @@
       },
       "examples": {
         "past": {
-          "en": "I walked to the park.",
-          "ja": "私は公園まで歩きました。"
+          "en": "We walked along the river.",
+          "ja": "私たちは川沿いを歩きました。"
         },
         "participle": {
           "en": "I have walked a lot today.",
-          "ja": "私は今日たくさん歩きました。"
+          "ja": "私は今日、たくさん歩きました。"
         }
       },
       "choices": {
@@ -2667,12 +2667,12 @@
       },
       "examples": {
         "past": {
-          "en": "I looked at the sky.",
-          "ja": "私は空を見ました。"
+          "en": "He looked at the sky.",
+          "ja": "彼は空を見上げました。"
         },
         "participle": {
-          "en": "I have looked at the picture.",
-          "ja": "私はその写真を見ました。"
+          "en": "I have looked everywhere for my keys.",
+          "ja": "鍵を探してあちこち見ました。"
         }
       },
       "choices": {
@@ -2707,12 +2707,12 @@
       },
       "examples": {
         "past": {
-          "en": "I watched TV.",
-          "ja": "私はテレビを見ました。"
+          "en": "I watched TV after dinner.",
+          "ja": "私は夕食後にテレビを見ました。"
         },
         "participle": {
-          "en": "I have watched that show.",
-          "ja": "私はその番組を見たことがあります。"
+          "en": "Have you watched this movie before?",
+          "ja": "この映画を以前に見たことがありますか？"
         }
       },
       "choices": {
@@ -2747,12 +2747,12 @@
       },
       "examples": {
         "past": {
-          "en": "I listened to music.",
-          "ja": "私は音楽を聞きました。"
+          "en": "She listened to music on the bus.",
+          "ja": "彼女はバスで音楽を聴きました。"
         },
         "participle": {
-          "en": "I have listened to this song.",
-          "ja": "私はこの歌を聞いたことがあります。"
+          "en": "I have listened to this song many times.",
+          "ja": "私はこの曲を何度も聴いています。"
         }
       },
       "choices": {
@@ -2787,12 +2787,12 @@
       },
       "examples": {
         "past": {
-          "en": "I talked to my friend.",
-          "ja": "私は友達と話しました。"
+          "en": "We talked for an hour.",
+          "ja": "私たちは1時間話しました。"
         },
         "participle": {
-          "en": "I have talked to ChatGPT today.",
-          "ja": "私は今日ChatGPTと話しました。"
+          "en": "I have talked to the doctor already.",
+          "ja": "私はもう医師と話しました。"
         }
       },
       "choices": {
@@ -2827,12 +2827,12 @@
       },
       "examples": {
         "past": {
-          "en": "I cooked dinner.",
-          "ja": "私は夕食を作りました。"
+          "en": "My brother cooked dinner.",
+          "ja": "弟が夕食を作りました。"
         },
         "participle": {
-          "en": "I have cooked dinner.",
-          "ja": "私は夕食を作りました。"
+          "en": "I have cooked rice for everyone.",
+          "ja": "みんなの分のご飯を炊きました。"
         }
       },
       "choices": {
@@ -2867,12 +2867,12 @@
       },
       "examples": {
         "past": {
-          "en": "I cleaned my room.",
-          "ja": "私は部屋を掃除しました。"
+          "en": "I cleaned my room yesterday.",
+          "ja": "私は昨日、部屋を掃除しました。"
         },
         "participle": {
-          "en": "I have cleaned the kitchen.",
-          "ja": "私は台所を掃除しました。"
+          "en": "The kitchen has been cleaned.",
+          "ja": "台所は掃除が済んでいます。"
         }
       },
       "choices": {
@@ -2907,12 +2907,12 @@
       },
       "examples": {
         "past": {
-          "en": "I washed the dishes.",
-          "ja": "私は皿を洗いました。"
+          "en": "She washed the dishes.",
+          "ja": "彼女は皿を洗いました。"
         },
         "participle": {
-          "en": "I have washed the dishes.",
-          "ja": "私は皿を洗いました。"
+          "en": "I have already washed my hands.",
+          "ja": "私はもう手を洗いました。"
         }
       },
       "choices": {
@@ -2947,12 +2947,12 @@
       },
       "examples": {
         "past": {
-          "en": "I opened the window.",
-          "ja": "私は窓を開けました。"
+          "en": "He opened the window.",
+          "ja": "彼は窓を開けました。"
         },
         "participle": {
-          "en": "I have opened the window.",
-          "ja": "私は窓を開けました。"
+          "en": "The shop has just opened.",
+          "ja": "その店はたった今、開店しました。"
         }
       },
       "choices": {
@@ -2987,12 +2987,12 @@
       },
       "examples": {
         "past": {
-          "en": "I closed the door.",
-          "ja": "私はドアを閉めました。"
+          "en": "I closed the door quietly.",
+          "ja": "私は静かにドアを閉めました。"
         },
         "participle": {
-          "en": "I have closed the door.",
-          "ja": "私はドアを閉めました。"
+          "en": "The library has already closed.",
+          "ja": "図書館はもう閉まっています。"
         }
       },
       "choices": {
@@ -3027,12 +3027,12 @@
       },
       "examples": {
         "past": {
-          "en": "I used my phone.",
-          "ja": "私は携帯電話を使いました。"
+          "en": "I used my phone to take a photo.",
+          "ja": "私は携帯電話で写真を撮りました。"
         },
         "participle": {
-          "en": "I have used this app.",
-          "ja": "私はこのアプリを使ったことがあります。"
+          "en": "This room has not been used for years.",
+          "ja": "この部屋は何年も使われていません。"
         }
       },
       "choices": {
@@ -3067,12 +3067,12 @@
       },
       "examples": {
         "past": {
-          "en": "I lived in Tokyo.",
-          "ja": "私は東京に住んでいました。"
+          "en": "We lived in Osaka before.",
+          "ja": "私たちは以前、大阪に住んでいました。"
         },
         "participle": {
-          "en": "I have lived here for years.",
-          "ja": "私はここに何年も住んでいます。"
+          "en": "She has lived here since April.",
+          "ja": "彼女は4月からここに住んでいます。"
         }
       },
       "choices": {
@@ -3107,12 +3107,12 @@
       },
       "examples": {
         "past": {
-          "en": "I studied English.",
-          "ja": "私は英語を勉強しました。"
+          "en": "I studied English last night.",
+          "ja": "私は昨夜、英語を勉強しました。"
         },
         "participle": {
-          "en": "I have studied English today.",
-          "ja": "私は今日英語を勉強しました。"
+          "en": "He has studied Japanese for two years.",
+          "ja": "彼は2年間、日本語を勉強しています。"
         }
       },
       "choices": {
@@ -3147,12 +3147,12 @@
       },
       "examples": {
         "past": {
-          "en": "I tried a new cake.",
-          "ja": "私は新しいケーキを試しました。"
+          "en": "I tried a new recipe.",
+          "ja": "私は新しいレシピを試しました。"
         },
         "participle": {
-          "en": "I have tried this game.",
-          "ja": "私はこのゲームを試したことがあります。"
+          "en": "Have you ever tried this cake?",
+          "ja": "このケーキを食べてみたことがありますか？"
         }
       },
       "choices": {
@@ -3187,12 +3187,12 @@
       },
       "examples": {
         "past": {
-          "en": "The baby cried.",
-          "ja": "赤ちゃんが泣きました。"
+          "en": "The baby cried all night.",
+          "ja": "赤ちゃんは一晩中泣いていました。"
         },
         "participle": {
-          "en": "The baby has cried a lot today.",
-          "ja": "赤ちゃんは今日たくさん泣きました。"
+          "en": "She has cried a lot today.",
+          "ja": "彼女は今日、たくさん泣きました。"
         }
       },
       "choices": {
@@ -3227,12 +3227,12 @@
       },
       "examples": {
         "past": {
-          "en": "I carried the bag.",
-          "ja": "私はかばんを運びました。"
+          "en": "He carried the heavy box.",
+          "ja": "彼は重い箱を運びました。"
         },
         "participle": {
-          "en": "I have carried this bag all day.",
-          "ja": "私はこのかばんを一日中持ち歩いています。"
+          "en": "I have carried these bags all morning.",
+          "ja": "私は午前中ずっとこのバッグを持ち歩いています。"
         }
       },
       "choices": {
@@ -3267,12 +3267,12 @@
       },
       "examples": {
         "past": {
-          "en": "The bus stopped.",
-          "ja": "バスが止まりました。"
+          "en": "The bus stopped in front of the school.",
+          "ja": "バスは学校の前で止まりました。"
         },
         "participle": {
-          "en": "The rain has stopped.",
-          "ja": "雨がやみました。"
+          "en": "The rain has finally stopped.",
+          "ja": "ようやく雨がやみました。"
         }
       },
       "choices": {
@@ -3307,12 +3307,12 @@
       },
       "examples": {
         "past": {
-          "en": "I planned a trip.",
-          "ja": "私は旅行を計画しました。"
+          "en": "We planned a trip to Kyoto.",
+          "ja": "私たちは京都旅行を計画しました。"
         },
         "participle": {
-          "en": "I have planned our trip.",
-          "ja": "私は私たちの旅行を計画しました。"
+          "en": "I have planned a surprise for you.",
+          "ja": "あなたのためにサプライズを計画しました。"
         }
       },
       "choices": {
@@ -3347,12 +3347,12 @@
       },
       "examples": {
         "past": {
-          "en": "I shopped yesterday.",
-          "ja": "私は昨日買い物をしました。"
+          "en": "I shopped with my sister yesterday.",
+          "ja": "私は昨日、姉と買い物をしました。"
         },
         "participle": {
-          "en": "I have shopped here before.",
-          "ja": "私は以前ここで買い物をしたことがあります。"
+          "en": "We have shopped here many times.",
+          "ja": "私たちはこの店で何度も買い物をしています。"
         }
       },
       "choices": {
@@ -3387,12 +3387,12 @@
       },
       "examples": {
         "past": {
-          "en": "I visited my friend.",
-          "ja": "私は友達を訪ねました。"
+          "en": "I visited my grandmother last week.",
+          "ja": "私は先週、祖母を訪ねました。"
         },
         "participle": {
-          "en": "I have visited Kyoto.",
-          "ja": "私は京都を訪れたことがあります。"
+          "en": "Have you ever visited Hokkaido?",
+          "ja": "北海道を訪れたことがありますか？"
         }
       },
       "choices": {
@@ -3427,12 +3427,12 @@
       },
       "examples": {
         "past": {
-          "en": "I helped my mother.",
-          "ja": "私は母を手伝いました。"
+          "en": "My son helped me cook dinner.",
+          "ja": "息子が夕食作りを手伝ってくれました。"
         },
         "participle": {
-          "en": "I have helped my friend.",
-          "ja": "私は友達を手伝いました。"
+          "en": "You have helped me so much.",
+          "ja": "あなたには本当にたくさん助けてもらいました。"
         }
       },
       "choices": {
@@ -3467,12 +3467,12 @@
       },
       "examples": {
         "past": {
-          "en": "I called my sister.",
-          "ja": "私は姉に電話しました。"
+          "en": "I called my friend yesterday.",
+          "ja": "私は昨日、友達に電話しました。"
         },
         "participle": {
-          "en": "I have called my sister.",
-          "ja": "私は姉に電話しました。"
+          "en": "I have called the store twice.",
+          "ja": "私はその店に2回電話しました。"
         }
       },
       "choices": {
@@ -3507,12 +3507,12 @@
       },
       "examples": {
         "past": {
-          "en": "I asked a question.",
-          "ja": "私は質問しました。"
+          "en": "She asked me a question.",
+          "ja": "彼女は私に質問しました。"
         },
         "participle": {
-          "en": "I have asked ChatGPT.",
-          "ja": "私はChatGPTに質問しました。"
+          "en": "I have asked him for help.",
+          "ja": "私は彼に助けを頼みました。"
         }
       },
       "choices": {
@@ -3547,12 +3547,12 @@
       },
       "examples": {
         "past": {
-          "en": "I answered the question.",
-          "ja": "私は質問に答えました。"
+          "en": "He answered the phone.",
+          "ja": "彼は電話に出ました。"
         },
         "participle": {
-          "en": "I have answered the question.",
-          "ja": "私は質問に答えました。"
+          "en": "I have answered all the questions.",
+          "ja": "私はすべての質問に答えました。"
         }
       },
       "choices": {
@@ -3587,12 +3587,12 @@
       },
       "examples": {
         "past": {
-          "en": "I needed some help.",
-          "ja": "私は助けが必要でした。"
+          "en": "I needed a new umbrella.",
+          "ja": "私は新しい傘が必要でした。"
         },
         "participle": {
-          "en": "I have needed help before.",
-          "ja": "私は以前助けが必要だったことがあります。"
+          "en": "I have always needed your support.",
+          "ja": "私はずっとあなたの支えを必要としてきました。"
         }
       },
       "choices": {
@@ -3627,12 +3627,12 @@
       },
       "examples": {
         "past": {
-          "en": "I waited for the bus.",
-          "ja": "私はバスを待ちました。"
+          "en": "We waited for the bus.",
+          "ja": "私たちはバスを待ちました。"
         },
         "participle": {
-          "en": "I have waited for an hour.",
-          "ja": "私は1時間待っています。"
+          "en": "I have waited for you for an hour.",
+          "ja": "私はあなたを1時間待っています。"
         }
       },
       "choices": {
@@ -3667,8 +3667,8 @@
       },
       "examples": {
         "past": {
-          "en": "I started the game.",
-          "ja": "私はゲームを始めました。"
+          "en": "The meeting started at ten.",
+          "ja": "会議は10時に始まりました。"
         },
         "participle": {
           "en": "I have started learning English.",
@@ -3707,12 +3707,12 @@
       },
       "examples": {
         "past": {
-          "en": "I finished my work.",
-          "ja": "私は仕事を終えました。"
+          "en": "She finished her homework.",
+          "ja": "彼女は宿題を終えました。"
         },
         "participle": {
-          "en": "I have finished my work.",
-          "ja": "私は仕事を終えました。"
+          "en": "Have you finished your lunch?",
+          "ja": "もう昼食は食べ終わりましたか？"
         }
       },
       "choices": {
@@ -3747,12 +3747,12 @@
       },
       "examples": {
         "past": {
-          "en": "I enjoyed the party.",
-          "ja": "私はパーティーを楽しみました。"
+          "en": "We enjoyed the party.",
+          "ja": "私たちはパーティーを楽しみました。"
         },
         "participle": {
-          "en": "I have enjoyed this game.",
-          "ja": "私はこのゲームを楽しんできました。"
+          "en": "I have enjoyed talking with you.",
+          "ja": "あなたとお話しできて楽しかったです。"
         }
       },
       "choices": {
@@ -3787,12 +3787,12 @@
       },
       "examples": {
         "past": {
-          "en": "I moved to a new house.",
-          "ja": "私は新しい家に引っ越しました。"
+          "en": "We moved to a new house.",
+          "ja": "私たちは新しい家に引っ越しました。"
         },
         "participle": {
-          "en": "I have moved to a new house.",
-          "ja": "私は新しい家に引っ越しました。"
+          "en": "My family has moved to Tokyo.",
+          "ja": "家族は東京に引っ越しました。"
         }
       },
       "choices": {
@@ -3827,12 +3827,12 @@
       },
       "examples": {
         "past": {
-          "en": "I changed my plan.",
-          "ja": "私は予定を変更しました。"
+          "en": "I changed my hairstyle yesterday.",
+          "ja": "私は昨日、髪型を変えました。"
         },
         "participle": {
-          "en": "I have changed my plan.",
-          "ja": "私は予定を変更しました。"
+          "en": "My plans have changed.",
+          "ja": "予定が変わりました。"
         }
       },
       "choices": {
@@ -3867,12 +3867,12 @@
       },
       "examples": {
         "past": {
-          "en": "I arrived at school.",
-          "ja": "私は学校に着きました。"
+          "en": "The train arrived at noon.",
+          "ja": "電車は正午に到着しました。"
         },
         "participle": {
-          "en": "I have arrived home.",
-          "ja": "私は家に着きました。"
+          "en": "My package has finally arrived.",
+          "ja": "私の荷物がようやく届きました。"
         }
       },
       "choices": {
@@ -3907,12 +3907,12 @@
       },
       "examples": {
         "past": {
-          "en": "I decided to study.",
-          "ja": "私は勉強することに決めました。"
+          "en": "We decided to stay home.",
+          "ja": "私たちは家にいることに決めました。"
         },
         "participle": {
-          "en": "I have decided to go.",
-          "ja": "私は行くことに決めました。"
+          "en": "I have decided to learn English.",
+          "ja": "私は英語を学ぶことに決めました。"
         }
       },
       "choices": {
@@ -3947,12 +3947,12 @@
       },
       "examples": {
         "past": {
-          "en": "I practiced the piano.",
-          "ja": "私はピアノを練習しました。"
+          "en": "I practiced the piano yesterday.",
+          "ja": "私は昨日、ピアノを練習しました。"
         },
         "participle": {
-          "en": "I have practiced the piano today.",
-          "ja": "私は今日ピアノを練習しました。"
+          "en": "She has practiced every day this week.",
+          "ja": "彼女は今週、毎日練習しています。"
         }
       },
       "choices": {
@@ -3987,12 +3987,12 @@
       },
       "examples": {
         "past": {
-          "en": "I danced at the party.",
-          "ja": "私はパーティーで踊りました。"
+          "en": "They danced at the party.",
+          "ja": "彼らはパーティーで踊りました。"
         },
         "participle": {
-          "en": "I have danced here before.",
-          "ja": "私は以前ここで踊ったことがあります。"
+          "en": "I have never danced on a stage.",
+          "ja": "私はステージで踊ったことがありません。"
         }
       },
       "choices": {
