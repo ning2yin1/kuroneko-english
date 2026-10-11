@@ -1,0 +1,4016 @@
+{
+  "app": "黒猫イングリッシュ",
+  "version": 1,
+  "notes": [
+    "選択肢は各設問でシャッフルする",
+    "カタカナは近似表記。英語音声を優先する",
+    "過去分詞例文は現在完了を中心に使用",
+    "beの過去形は主語に合わせて出題する",
+    "getの過去分詞には地域差がある"
+  ],
+  "verbs": [
+    {
+      "id": "v001",
+      "base": "be",
+      "past": "was / were",
+      "participle": "been",
+      "meaning": "〜である・いる",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ビー",
+        "past": "ワズ／ワー",
+        "participle": "ビーン"
+      },
+      "examples": {
+        "past": {
+          "en": "I was busy yesterday.",
+          "ja": "私は昨日忙しかったです。"
+        },
+        "participle": {
+          "en": "I have been busy today.",
+          "ja": "私は今日ずっと忙しいです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "was",
+          "beed",
+          "been",
+          "be",
+          "being"
+        ],
+        "participle": [
+          "been",
+          "was",
+          "were",
+          "beed",
+          "being"
+        ]
+      },
+      "notes": "過去形は I/he/she/it → was、you/we/they → were。問題は主語を表示して出題する。"
+    },
+    {
+      "id": "v002",
+      "base": "have",
+      "past": "had",
+      "participle": "had",
+      "meaning": "持っている・食べる",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ハヴ",
+        "past": "ハド",
+        "participle": "ハド"
+      },
+      "examples": {
+        "past": {
+          "en": "I had a cake yesterday.",
+          "ja": "私は昨日ケーキを食べました。"
+        },
+        "participle": {
+          "en": "I have had lunch.",
+          "ja": "私は昼食を食べました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "had",
+          "haved",
+          "haveen",
+          "havet",
+          "have"
+        ],
+        "participle": [
+          "had",
+          "haved",
+          "haveen",
+          "havet",
+          "have"
+        ]
+      }
+    },
+    {
+      "id": "v003",
+      "base": "do",
+      "past": "did",
+      "participle": "done",
+      "meaning": "する",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ドゥー",
+        "past": "ディド",
+        "participle": "ダン"
+      },
+      "examples": {
+        "past": {
+          "en": "I did my homework.",
+          "ja": "私は宿題をしました。"
+        },
+        "participle": {
+          "en": "I have done my homework.",
+          "ja": "私は宿題を終えました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "did",
+          "done",
+          "doed",
+          "doen",
+          "dot"
+        ],
+        "participle": [
+          "done",
+          "did",
+          "doed",
+          "doen",
+          "dot"
+        ]
+      }
+    },
+    {
+      "id": "v004",
+      "base": "go",
+      "past": "went",
+      "participle": "gone",
+      "meaning": "行く",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ゴウ",
+        "past": "ウェント",
+        "participle": "ゴーン"
+      },
+      "examples": {
+        "past": {
+          "en": "I went to the store.",
+          "ja": "私は店に行きました。"
+        },
+        "participle": {
+          "en": "She has gone to school.",
+          "ja": "彼女は学校に行ってしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "went",
+          "goed",
+          "gone",
+          "goes",
+          "goned"
+        ],
+        "participle": [
+          "gone",
+          "went",
+          "goed",
+          "goes",
+          "going"
+        ]
+      }
+    },
+    {
+      "id": "v005",
+      "base": "come",
+      "past": "came",
+      "participle": "come",
+      "meaning": "来る",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "カム",
+        "past": "ケイム",
+        "participle": "カム"
+      },
+      "examples": {
+        "past": {
+          "en": "My friend came yesterday.",
+          "ja": "友達が昨日来ました。"
+        },
+        "participle": {
+          "en": "My friend has come home.",
+          "ja": "友達が家に帰ってきました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "came",
+          "come",
+          "comed",
+          "comeen",
+          "comet"
+        ],
+        "participle": [
+          "come",
+          "came",
+          "comed",
+          "comeen",
+          "comet"
+        ]
+      }
+    },
+    {
+      "id": "v006",
+      "base": "get",
+      "past": "got",
+      "participle": "got / gotten",
+      "meaning": "手に入れる",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ゲット",
+        "past": "ガット",
+        "participle": "ガット／ガトゥン"
+      },
+      "examples": {
+        "past": {
+          "en": "I got a letter.",
+          "ja": "私は手紙を受け取りました。"
+        },
+        "participle": {
+          "en": "I have got a new bag.",
+          "ja": "私は新しいかばんを手に入れました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "got",
+          "getted",
+          "get",
+          "gotten",
+          "gat"
+        ],
+        "participle": [
+          "got",
+          "getted",
+          "get",
+          "getting",
+          "gat"
+        ]
+      },
+      "notes": "過去分詞は got（主にイギリス英語）と gotten（主にアメリカ英語）がある。"
+    },
+    {
+      "id": "v007",
+      "base": "make",
+      "past": "made",
+      "participle": "made",
+      "meaning": "作る",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "メイク",
+        "past": "メイド",
+        "participle": "メイド"
+      },
+      "examples": {
+        "past": {
+          "en": "I made dinner.",
+          "ja": "私は夕食を作りました。"
+        },
+        "participle": {
+          "en": "I have made a cake.",
+          "ja": "私はケーキを作りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "made",
+          "maked",
+          "makeen",
+          "maket",
+          "make"
+        ],
+        "participle": [
+          "made",
+          "maked",
+          "makeen",
+          "maket",
+          "make"
+        ]
+      }
+    },
+    {
+      "id": "v008",
+      "base": "take",
+      "past": "took",
+      "participle": "taken",
+      "meaning": "取る・持っていく",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "テイク",
+        "past": "トゥック",
+        "participle": "テイクン"
+      },
+      "examples": {
+        "past": {
+          "en": "I took a picture.",
+          "ja": "私は写真を撮りました。"
+        },
+        "participle": {
+          "en": "I have taken many pictures.",
+          "ja": "私はたくさん写真を撮りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "took",
+          "taked",
+          "taken",
+          "toak",
+          "teok"
+        ],
+        "participle": [
+          "taken",
+          "took",
+          "taked",
+          "tooken",
+          "takin"
+        ]
+      }
+    },
+    {
+      "id": "v009",
+      "base": "see",
+      "past": "saw",
+      "participle": "seen",
+      "meaning": "見る",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "スィー",
+        "past": "ソー",
+        "participle": "スィーン"
+      },
+      "examples": {
+        "past": {
+          "en": "I saw a cat.",
+          "ja": "私は猫を見ました。"
+        },
+        "participle": {
+          "en": "I have seen that movie.",
+          "ja": "私はその映画を見たことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "saw",
+          "seen",
+          "seed",
+          "seeen",
+          "seet"
+        ],
+        "participle": [
+          "seen",
+          "saw",
+          "seed",
+          "seeen",
+          "seet"
+        ]
+      }
+    },
+    {
+      "id": "v010",
+      "base": "eat",
+      "past": "ate",
+      "participle": "eaten",
+      "meaning": "食べる",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "イート",
+        "past": "エイト",
+        "participle": "イートゥン"
+      },
+      "examples": {
+        "past": {
+          "en": "I ate breakfast.",
+          "ja": "私は朝食を食べました。"
+        },
+        "participle": {
+          "en": "I have eaten breakfast.",
+          "ja": "私は朝食をもう食べました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "ate",
+          "eated",
+          "eaten",
+          "et",
+          "eat"
+        ],
+        "participle": [
+          "eaten",
+          "ate",
+          "eated",
+          "eatten",
+          "eat"
+        ]
+      }
+    },
+    {
+      "id": "v011",
+      "base": "drink",
+      "past": "drank",
+      "participle": "drunk",
+      "meaning": "飲む",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ドゥリンク",
+        "past": "ドゥランク",
+        "participle": "ドゥランク（過去形とは母音が異なる）"
+      },
+      "examples": {
+        "past": {
+          "en": "I drank some water.",
+          "ja": "私は水を飲みました。"
+        },
+        "participle": {
+          "en": "I have drunk some water.",
+          "ja": "私は水を飲みました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "drank",
+          "drunk",
+          "drinked",
+          "drinken",
+          "drinkt"
+        ],
+        "participle": [
+          "drunk",
+          "drank",
+          "drinked",
+          "drinken",
+          "drinkt"
+        ]
+      }
+    },
+    {
+      "id": "v012",
+      "base": "give",
+      "past": "gave",
+      "participle": "given",
+      "meaning": "与える",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ギヴ",
+        "past": "ゲイヴ",
+        "participle": "ギヴン"
+      },
+      "examples": {
+        "past": {
+          "en": "I gave her a gift.",
+          "ja": "私は彼女に贈り物をあげました。"
+        },
+        "participle": {
+          "en": "I have given her a gift.",
+          "ja": "私は彼女に贈り物をあげました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "gave",
+          "given",
+          "gived",
+          "giveen",
+          "givet"
+        ],
+        "participle": [
+          "given",
+          "gave",
+          "gived",
+          "giveen",
+          "givet"
+        ]
+      }
+    },
+    {
+      "id": "v013",
+      "base": "know",
+      "past": "knew",
+      "participle": "known",
+      "meaning": "知っている",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ノウ",
+        "past": "ニュー",
+        "participle": "ノウン"
+      },
+      "examples": {
+        "past": {
+          "en": "I knew the answer.",
+          "ja": "私は答えを知っていました。"
+        },
+        "participle": {
+          "en": "I have known her for years.",
+          "ja": "私は彼女と何年も前から知り合いです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "knew",
+          "known",
+          "knowed",
+          "knowen",
+          "knowt"
+        ],
+        "participle": [
+          "known",
+          "knew",
+          "knowed",
+          "knowen",
+          "knowt"
+        ]
+      }
+    },
+    {
+      "id": "v014",
+      "base": "think",
+      "past": "thought",
+      "participle": "thought",
+      "meaning": "考える",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "スィンク",
+        "past": "ソート",
+        "participle": "ソート"
+      },
+      "examples": {
+        "past": {
+          "en": "I thought about you.",
+          "ja": "私はあなたのことを考えました。"
+        },
+        "participle": {
+          "en": "I have thought about it.",
+          "ja": "私はそれについて考えました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "thought",
+          "thinked",
+          "thinken",
+          "thinkt",
+          "think"
+        ],
+        "participle": [
+          "thought",
+          "thinked",
+          "thinken",
+          "thinkt",
+          "think"
+        ]
+      }
+    },
+    {
+      "id": "v015",
+      "base": "say",
+      "past": "said",
+      "participle": "said",
+      "meaning": "言う",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "セイ",
+        "past": "セド",
+        "participle": "セド"
+      },
+      "examples": {
+        "past": {
+          "en": "She said hello.",
+          "ja": "彼女はこんにちはと言いました。"
+        },
+        "participle": {
+          "en": "I have said that before.",
+          "ja": "私は前にもそれを言いました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "said",
+          "sayed",
+          "sayen",
+          "sayt",
+          "say"
+        ],
+        "participle": [
+          "said",
+          "sayed",
+          "sayen",
+          "sayt",
+          "say"
+        ]
+      }
+    },
+    {
+      "id": "v016",
+      "base": "tell",
+      "past": "told",
+      "participle": "told",
+      "meaning": "伝える",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "テル",
+        "past": "トウルド",
+        "participle": "トウルド"
+      },
+      "examples": {
+        "past": {
+          "en": "I told her the news.",
+          "ja": "私は彼女にその知らせを伝えました。"
+        },
+        "participle": {
+          "en": "I have told her the news.",
+          "ja": "私は彼女にその知らせを伝えました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "told",
+          "telled",
+          "tellen",
+          "tellt",
+          "tell"
+        ],
+        "participle": [
+          "told",
+          "telled",
+          "tellen",
+          "tellt",
+          "tell"
+        ]
+      }
+    },
+    {
+      "id": "v017",
+      "base": "buy",
+      "past": "bought",
+      "participle": "bought",
+      "meaning": "買う",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "バイ",
+        "past": "ボート",
+        "participle": "ボート"
+      },
+      "examples": {
+        "past": {
+          "en": "I bought a book.",
+          "ja": "私は本を買いました。"
+        },
+        "participle": {
+          "en": "I have bought some stocks.",
+          "ja": "私は株をいくつか買いました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "bought",
+          "buyed",
+          "buyen",
+          "buyt",
+          "buy"
+        ],
+        "participle": [
+          "bought",
+          "buyed",
+          "buyen",
+          "buyt",
+          "buy"
+        ]
+      }
+    },
+    {
+      "id": "v018",
+      "base": "read",
+      "past": "read",
+      "participle": "read",
+      "meaning": "読む",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "リード",
+        "past": "レッド",
+        "participle": "レッド"
+      },
+      "examples": {
+        "past": {
+          "en": "I read a book yesterday.",
+          "ja": "私は昨日本を読みました。"
+        },
+        "participle": {
+          "en": "I have read this book.",
+          "ja": "私はこの本を読んだことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "read",
+          "readed",
+          "red",
+          "reed",
+          "reading"
+        ],
+        "participle": [
+          "read",
+          "readed",
+          "red",
+          "reed",
+          "reading"
+        ]
+      },
+      "notes": "つづりは三つとも read。原形は「リード」、過去形・過去分詞は「レッド」。音声ボタンでは時制が分かる短い文を再生します。"
+    },
+    {
+      "id": "v019",
+      "base": "write",
+      "past": "wrote",
+      "participle": "written",
+      "meaning": "書く",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ライト",
+        "past": "ロウト",
+        "participle": "リトゥン"
+      },
+      "examples": {
+        "past": {
+          "en": "I wrote a letter.",
+          "ja": "私は手紙を書きました。"
+        },
+        "participle": {
+          "en": "I have written a letter.",
+          "ja": "私は手紙を書きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "wrote",
+          "writed",
+          "written",
+          "writen",
+          "wroten"
+        ],
+        "participle": [
+          "written",
+          "wrote",
+          "writed",
+          "writen",
+          "wroten"
+        ]
+      }
+    },
+    {
+      "id": "v020",
+      "base": "run",
+      "past": "ran",
+      "participle": "run",
+      "meaning": "走る",
+      "type": "irregular",
+      "level": 1,
+      "reading": {
+        "base": "ラン",
+        "past": "ラン（母音は原形と異なる）",
+        "participle": "ラン"
+      },
+      "examples": {
+        "past": {
+          "en": "I ran in the park.",
+          "ja": "私は公園で走りました。"
+        },
+        "participle": {
+          "en": "I have run five kilometers.",
+          "ja": "私は5キロ走りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "ran",
+          "run",
+          "runed",
+          "runen",
+          "runt"
+        ],
+        "participle": [
+          "run",
+          "ran",
+          "runed",
+          "runen",
+          "runt"
+        ]
+      }
+    },
+    {
+      "id": "v021",
+      "base": "speak",
+      "past": "spoke",
+      "participle": "spoken",
+      "meaning": "話す",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "スピーク",
+        "past": "スポウク",
+        "participle": "スポウクン"
+      },
+      "examples": {
+        "past": {
+          "en": "I spoke with my friend.",
+          "ja": "私は友達と話しました。"
+        },
+        "participle": {
+          "en": "I have spoken with ChatGPT.",
+          "ja": "私はChatGPTと話しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "spoke",
+          "spoken",
+          "speaked",
+          "speaken",
+          "speakt"
+        ],
+        "participle": [
+          "spoken",
+          "spoke",
+          "speaked",
+          "speaken",
+          "speakt"
+        ]
+      }
+    },
+    {
+      "id": "v022",
+      "base": "begin",
+      "past": "began",
+      "participle": "begun",
+      "meaning": "始まる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ビギン",
+        "past": "ビギャン",
+        "participle": "ビガン"
+      },
+      "examples": {
+        "past": {
+          "en": "The class began at nine.",
+          "ja": "授業は9時に始まりました。"
+        },
+        "participle": {
+          "en": "The class has begun.",
+          "ja": "授業はもう始まりました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "began",
+          "begun",
+          "begined",
+          "beginen",
+          "begint"
+        ],
+        "participle": [
+          "begun",
+          "began",
+          "begined",
+          "beginen",
+          "begint"
+        ]
+      }
+    },
+    {
+      "id": "v023",
+      "base": "break",
+      "past": "broke",
+      "participle": "broken",
+      "meaning": "壊す・折る",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ブレイク",
+        "past": "ブロウク",
+        "participle": "ブロウクン"
+      },
+      "examples": {
+        "past": {
+          "en": "I broke my leg.",
+          "ja": "私は脚を骨折しました。"
+        },
+        "participle": {
+          "en": "I have broken my phone.",
+          "ja": "私は携帯電話を壊してしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "broke",
+          "broken",
+          "breaked",
+          "breaken",
+          "breakt"
+        ],
+        "participle": [
+          "broken",
+          "broke",
+          "breaked",
+          "breaken",
+          "breakt"
+        ]
+      }
+    },
+    {
+      "id": "v024",
+      "base": "bring",
+      "past": "brought",
+      "participle": "brought",
+      "meaning": "持ってくる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ブリング",
+        "past": "ブロート",
+        "participle": "ブロート"
+      },
+      "examples": {
+        "past": {
+          "en": "I brought some cake.",
+          "ja": "私はケーキを持ってきました。"
+        },
+        "participle": {
+          "en": "I have brought my bag.",
+          "ja": "私はかばんを持ってきました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "brought",
+          "bringed",
+          "bringen",
+          "bringt",
+          "bring"
+        ],
+        "participle": [
+          "brought",
+          "bringed",
+          "bringen",
+          "bringt",
+          "bring"
+        ]
+      }
+    },
+    {
+      "id": "v025",
+      "base": "build",
+      "past": "built",
+      "participle": "built",
+      "meaning": "建てる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ビルド",
+        "past": "ビルト",
+        "participle": "ビルト"
+      },
+      "examples": {
+        "past": {
+          "en": "They built a house.",
+          "ja": "彼らは家を建てました。"
+        },
+        "participle": {
+          "en": "They have built a house.",
+          "ja": "彼らは家を建てました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "built",
+          "builded",
+          "builden",
+          "buildt",
+          "build"
+        ],
+        "participle": [
+          "built",
+          "builded",
+          "builden",
+          "buildt",
+          "build"
+        ]
+      }
+    },
+    {
+      "id": "v026",
+      "base": "catch",
+      "past": "caught",
+      "participle": "caught",
+      "meaning": "捕まえる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "キャッチ",
+        "past": "コート",
+        "participle": "コート"
+      },
+      "examples": {
+        "past": {
+          "en": "I caught the ball.",
+          "ja": "私はボールを捕りました。"
+        },
+        "participle": {
+          "en": "I have caught a fish.",
+          "ja": "私は魚を捕まえました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "caught",
+          "catched",
+          "catchen",
+          "catcht",
+          "catch"
+        ],
+        "participle": [
+          "caught",
+          "catched",
+          "catchen",
+          "catcht",
+          "catch"
+        ]
+      }
+    },
+    {
+      "id": "v027",
+      "base": "choose",
+      "past": "chose",
+      "participle": "chosen",
+      "meaning": "選ぶ",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "チューズ",
+        "past": "チョウズ",
+        "participle": "チョウズン"
+      },
+      "examples": {
+        "past": {
+          "en": "I chose the pink one.",
+          "ja": "私はピンクの方を選びました。"
+        },
+        "participle": {
+          "en": "I have chosen a dress.",
+          "ja": "私はドレスを選びました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "chose",
+          "chosen",
+          "choosed",
+          "chooseen",
+          "chooset"
+        ],
+        "participle": [
+          "chosen",
+          "chose",
+          "choosed",
+          "chooseen",
+          "chooset"
+        ]
+      }
+    },
+    {
+      "id": "v028",
+      "base": "cut",
+      "past": "cut",
+      "participle": "cut",
+      "meaning": "切る",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "カット",
+        "past": "カット",
+        "participle": "カット"
+      },
+      "examples": {
+        "past": {
+          "en": "I cut the paper.",
+          "ja": "私は紙を切りました。"
+        },
+        "participle": {
+          "en": "I have cut the bread.",
+          "ja": "私はパンを切りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "cut",
+          "cuted",
+          "cuten",
+          "cutt",
+          "cu"
+        ],
+        "participle": [
+          "cut",
+          "cuted",
+          "cuten",
+          "cutt",
+          "cu"
+        ]
+      }
+    },
+    {
+      "id": "v029",
+      "base": "draw",
+      "past": "drew",
+      "participle": "drawn",
+      "meaning": "描く",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ドロー",
+        "past": "ドゥルー",
+        "participle": "ドローン"
+      },
+      "examples": {
+        "past": {
+          "en": "I drew a cat.",
+          "ja": "私は猫の絵を描きました。"
+        },
+        "participle": {
+          "en": "I have drawn a cat.",
+          "ja": "私は猫の絵を描きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "drew",
+          "drawn",
+          "drawed",
+          "drawen",
+          "drawt"
+        ],
+        "participle": [
+          "drawn",
+          "drew",
+          "drawed",
+          "drawen",
+          "drawt"
+        ]
+      }
+    },
+    {
+      "id": "v030",
+      "base": "drive",
+      "past": "drove",
+      "participle": "driven",
+      "meaning": "運転する",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ドゥライヴ",
+        "past": "ドゥロウヴ",
+        "participle": "ドゥリヴン"
+      },
+      "examples": {
+        "past": {
+          "en": "I drove to work.",
+          "ja": "私は車で仕事に行きました。"
+        },
+        "participle": {
+          "en": "I have driven this car.",
+          "ja": "私はこの車を運転したことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "drove",
+          "driven",
+          "drived",
+          "driveen",
+          "drivet"
+        ],
+        "participle": [
+          "driven",
+          "drove",
+          "drived",
+          "driveen",
+          "drivet"
+        ]
+      }
+    },
+    {
+      "id": "v031",
+      "base": "fall",
+      "past": "fell",
+      "participle": "fallen",
+      "meaning": "落ちる・転ぶ",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "フォール",
+        "past": "フェル",
+        "participle": "フォールン"
+      },
+      "examples": {
+        "past": {
+          "en": "I fell down.",
+          "ja": "私は転びました。"
+        },
+        "participle": {
+          "en": "The leaves have fallen.",
+          "ja": "葉が落ちました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "fell",
+          "fallen",
+          "falled",
+          "fallt",
+          "fall"
+        ],
+        "participle": [
+          "fallen",
+          "fell",
+          "falled",
+          "fallt",
+          "fall"
+        ]
+      }
+    },
+    {
+      "id": "v032",
+      "base": "feel",
+      "past": "felt",
+      "participle": "felt",
+      "meaning": "感じる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "フィール",
+        "past": "フェルト",
+        "participle": "フェルト"
+      },
+      "examples": {
+        "past": {
+          "en": "I felt happy.",
+          "ja": "私はうれしく感じました。"
+        },
+        "participle": {
+          "en": "I have felt tired all day.",
+          "ja": "私は一日中疲れています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "felt",
+          "feeled",
+          "feelen",
+          "feelt",
+          "feel"
+        ],
+        "participle": [
+          "felt",
+          "feeled",
+          "feelen",
+          "feelt",
+          "feel"
+        ]
+      }
+    },
+    {
+      "id": "v033",
+      "base": "find",
+      "past": "found",
+      "participle": "found",
+      "meaning": "見つける",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ファインド",
+        "past": "ファウンド",
+        "participle": "ファウンド"
+      },
+      "examples": {
+        "past": {
+          "en": "I found my keys.",
+          "ja": "私は鍵を見つけました。"
+        },
+        "participle": {
+          "en": "I have found my keys.",
+          "ja": "私は鍵を見つけました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "found",
+          "finded",
+          "finden",
+          "findt",
+          "find"
+        ],
+        "participle": [
+          "found",
+          "finded",
+          "finden",
+          "findt",
+          "find"
+        ]
+      }
+    },
+    {
+      "id": "v034",
+      "base": "forget",
+      "past": "forgot",
+      "participle": "forgotten",
+      "meaning": "忘れる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "フォゲット",
+        "past": "フォガット",
+        "participle": "フォガトゥン"
+      },
+      "examples": {
+        "past": {
+          "en": "I forgot my bag.",
+          "ja": "私はかばんを忘れました。"
+        },
+        "participle": {
+          "en": "I have forgotten his name.",
+          "ja": "私は彼の名前を忘れてしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "forgot",
+          "forgotten",
+          "forgeted",
+          "forgeten",
+          "forgett"
+        ],
+        "participle": [
+          "forgotten",
+          "forgot",
+          "forgeted",
+          "forgeten",
+          "forgett"
+        ]
+      }
+    },
+    {
+      "id": "v035",
+      "base": "hear",
+      "past": "heard",
+      "participle": "heard",
+      "meaning": "聞こえる",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ヒア",
+        "past": "ハード",
+        "participle": "ハード"
+      },
+      "examples": {
+        "past": {
+          "en": "I heard a noise.",
+          "ja": "私は物音を聞きました。"
+        },
+        "participle": {
+          "en": "I have heard this song.",
+          "ja": "私はこの歌を聞いたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "heard",
+          "heared",
+          "hearen",
+          "heart",
+          "hear"
+        ],
+        "participle": [
+          "heard",
+          "heared",
+          "hearen",
+          "heart",
+          "hear"
+        ]
+      }
+    },
+    {
+      "id": "v036",
+      "base": "keep",
+      "past": "kept",
+      "participle": "kept",
+      "meaning": "保つ・続ける",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "キープ",
+        "past": "ケプト",
+        "participle": "ケプト"
+      },
+      "examples": {
+        "past": {
+          "en": "I kept the door open.",
+          "ja": "私はドアを開けたままにしました。"
+        },
+        "participle": {
+          "en": "I have kept this photo.",
+          "ja": "私はこの写真をずっと持っています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "kept",
+          "keeped",
+          "keepen",
+          "keept",
+          "keep"
+        ],
+        "participle": [
+          "kept",
+          "keeped",
+          "keepen",
+          "keept",
+          "keep"
+        ]
+      }
+    },
+    {
+      "id": "v037",
+      "base": "leave",
+      "past": "left",
+      "participle": "left",
+      "meaning": "去る・出発する",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "リーヴ",
+        "past": "レフト",
+        "participle": "レフト"
+      },
+      "examples": {
+        "past": {
+          "en": "I left home at eight.",
+          "ja": "私は8時に家を出ました。"
+        },
+        "participle": {
+          "en": "She has left home.",
+          "ja": "彼女は家を出てしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "left",
+          "leaved",
+          "leaveen",
+          "leavet",
+          "leave"
+        ],
+        "participle": [
+          "left",
+          "leaved",
+          "leaveen",
+          "leavet",
+          "leave"
+        ]
+      }
+    },
+    {
+      "id": "v038",
+      "base": "lose",
+      "past": "lost",
+      "participle": "lost",
+      "meaning": "なくす・負ける",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ルーズ",
+        "past": "ロスト",
+        "participle": "ロスト"
+      },
+      "examples": {
+        "past": {
+          "en": "I lost my pen.",
+          "ja": "私はペンをなくしました。"
+        },
+        "participle": {
+          "en": "I have lost my pen.",
+          "ja": "私はペンをなくしてしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "lost",
+          "losed",
+          "loseen",
+          "loset",
+          "lose"
+        ],
+        "participle": [
+          "lost",
+          "losed",
+          "loseen",
+          "loset",
+          "lose"
+        ]
+      }
+    },
+    {
+      "id": "v039",
+      "base": "meet",
+      "past": "met",
+      "participle": "met",
+      "meaning": "会う",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "ミート",
+        "past": "メット",
+        "participle": "メット"
+      },
+      "examples": {
+        "past": {
+          "en": "I met my friend.",
+          "ja": "私は友達に会いました。"
+        },
+        "participle": {
+          "en": "I have met her before.",
+          "ja": "私は以前彼女に会ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "met",
+          "meeted",
+          "meeten",
+          "meett",
+          "meet"
+        ],
+        "participle": [
+          "met",
+          "meeted",
+          "meeten",
+          "meett",
+          "meet"
+        ]
+      }
+    },
+    {
+      "id": "v040",
+      "base": "put",
+      "past": "put",
+      "participle": "put",
+      "meaning": "置く",
+      "type": "irregular",
+      "level": 2,
+      "reading": {
+        "base": "プット",
+        "past": "プット",
+        "participle": "プット"
+      },
+      "examples": {
+        "past": {
+          "en": "I put the cup here.",
+          "ja": "私はここにコップを置きました。"
+        },
+        "participle": {
+          "en": "I have put the cup here.",
+          "ja": "私はここにコップを置きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "put",
+          "puted",
+          "puten",
+          "putt",
+          "pu"
+        ],
+        "participle": [
+          "put",
+          "puted",
+          "puten",
+          "putt",
+          "pu"
+        ]
+      }
+    },
+    {
+      "id": "v041",
+      "base": "send",
+      "past": "sent",
+      "participle": "sent",
+      "meaning": "送る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "センド",
+        "past": "セント",
+        "participle": "セント"
+      },
+      "examples": {
+        "past": {
+          "en": "I sent an email.",
+          "ja": "私はメールを送りました。"
+        },
+        "participle": {
+          "en": "I have sent an email.",
+          "ja": "私はメールを送りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "sent",
+          "sended",
+          "senden",
+          "sendt",
+          "send"
+        ],
+        "participle": [
+          "sent",
+          "sended",
+          "senden",
+          "sendt",
+          "send"
+        ]
+      }
+    },
+    {
+      "id": "v042",
+      "base": "sing",
+      "past": "sang",
+      "participle": "sung",
+      "meaning": "歌う",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "スィング",
+        "past": "サング",
+        "participle": "サング（母音は過去形と異なる）"
+      },
+      "examples": {
+        "past": {
+          "en": "I sang a song.",
+          "ja": "私は歌を歌いました。"
+        },
+        "participle": {
+          "en": "I have sung this song.",
+          "ja": "私はこの歌を歌ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "sang",
+          "sung",
+          "singed",
+          "singen",
+          "singt"
+        ],
+        "participle": [
+          "sung",
+          "sang",
+          "singed",
+          "singen",
+          "singt"
+        ]
+      }
+    },
+    {
+      "id": "v043",
+      "base": "sit",
+      "past": "sat",
+      "participle": "sat",
+      "meaning": "座る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "スィット",
+        "past": "サット",
+        "participle": "サット"
+      },
+      "examples": {
+        "past": {
+          "en": "I sat on the chair.",
+          "ja": "私は椅子に座りました。"
+        },
+        "participle": {
+          "en": "I have sat here before.",
+          "ja": "私は前にここに座ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "sat",
+          "sited",
+          "siten",
+          "sitt",
+          "sit"
+        ],
+        "participle": [
+          "sat",
+          "sited",
+          "siten",
+          "sitt",
+          "sit"
+        ]
+      }
+    },
+    {
+      "id": "v044",
+      "base": "sleep",
+      "past": "slept",
+      "participle": "slept",
+      "meaning": "眠る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "スリープ",
+        "past": "スレプト",
+        "participle": "スレプト"
+      },
+      "examples": {
+        "past": {
+          "en": "I slept well.",
+          "ja": "私はよく眠りました。"
+        },
+        "participle": {
+          "en": "I have slept for eight hours.",
+          "ja": "私は8時間眠りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "slept",
+          "sleeped",
+          "sleepen",
+          "sleept",
+          "sleep"
+        ],
+        "participle": [
+          "slept",
+          "sleeped",
+          "sleepen",
+          "sleept",
+          "sleep"
+        ]
+      }
+    },
+    {
+      "id": "v045",
+      "base": "stand",
+      "past": "stood",
+      "participle": "stood",
+      "meaning": "立つ",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "スタンド",
+        "past": "ストゥッド",
+        "participle": "ストゥッド"
+      },
+      "examples": {
+        "past": {
+          "en": "I stood by the door.",
+          "ja": "私はドアのそばに立ちました。"
+        },
+        "participle": {
+          "en": "I have stood here before.",
+          "ja": "私は以前ここに立ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "stood",
+          "standed",
+          "standen",
+          "standt",
+          "stand"
+        ],
+        "participle": [
+          "stood",
+          "standed",
+          "standen",
+          "standt",
+          "stand"
+        ]
+      }
+    },
+    {
+      "id": "v046",
+      "base": "swim",
+      "past": "swam",
+      "participle": "swum",
+      "meaning": "泳ぐ",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "スウィム",
+        "past": "スワム",
+        "participle": "スワム（母音は過去形と異なる）"
+      },
+      "examples": {
+        "past": {
+          "en": "I swam in the pool.",
+          "ja": "私はプールで泳ぎました。"
+        },
+        "participle": {
+          "en": "I have swum in the sea.",
+          "ja": "私は海で泳いだことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "swam",
+          "swum",
+          "swimed",
+          "swimen",
+          "swimt"
+        ],
+        "participle": [
+          "swum",
+          "swam",
+          "swimed",
+          "swimen",
+          "swimt"
+        ]
+      }
+    },
+    {
+      "id": "v047",
+      "base": "teach",
+      "past": "taught",
+      "participle": "taught",
+      "meaning": "教える",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ティーチ",
+        "past": "トート",
+        "participle": "トート"
+      },
+      "examples": {
+        "past": {
+          "en": "I taught children.",
+          "ja": "私は子どもたちを教えました。"
+        },
+        "participle": {
+          "en": "I have taught at a nursery school.",
+          "ja": "私は保育園で教えたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "taught",
+          "teached",
+          "teach",
+          "teachen",
+          "tought"
+        ],
+        "participle": [
+          "taught",
+          "teached",
+          "teach",
+          "teachen",
+          "tought"
+        ]
+      }
+    },
+    {
+      "id": "v048",
+      "base": "understand",
+      "past": "understood",
+      "participle": "understood",
+      "meaning": "理解する",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "アンダスタンド",
+        "past": "アンダストゥッド",
+        "participle": "アンダストゥッド"
+      },
+      "examples": {
+        "past": {
+          "en": "I understood the question.",
+          "ja": "私は質問を理解しました。"
+        },
+        "participle": {
+          "en": "I have understood the lesson.",
+          "ja": "私は授業の内容を理解しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "understood",
+          "understanded",
+          "understanden",
+          "understandt",
+          "understand"
+        ],
+        "participle": [
+          "understood",
+          "understanded",
+          "understanden",
+          "understandt",
+          "understand"
+        ]
+      }
+    },
+    {
+      "id": "v049",
+      "base": "wear",
+      "past": "wore",
+      "participle": "worn",
+      "meaning": "着る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ウェア",
+        "past": "ウォー",
+        "participle": "ウォーン"
+      },
+      "examples": {
+        "past": {
+          "en": "I wore a pink shirt.",
+          "ja": "私はピンクのシャツを着ました。"
+        },
+        "participle": {
+          "en": "I have worn this dress before.",
+          "ja": "私は以前このドレスを着たことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "wore",
+          "worn",
+          "weared",
+          "wearen",
+          "weart"
+        ],
+        "participle": [
+          "worn",
+          "wore",
+          "weared",
+          "wearen",
+          "weart"
+        ]
+      }
+    },
+    {
+      "id": "v050",
+      "base": "win",
+      "past": "won",
+      "participle": "won",
+      "meaning": "勝つ",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ウィン",
+        "past": "ワン",
+        "participle": "ワン"
+      },
+      "examples": {
+        "past": {
+          "en": "Our team won.",
+          "ja": "私たちのチームは勝ちました。"
+        },
+        "participle": {
+          "en": "Our team has won the game.",
+          "ja": "私たちのチームは試合に勝ちました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "won",
+          "wined",
+          "winen",
+          "wint",
+          "win"
+        ],
+        "participle": [
+          "won",
+          "wined",
+          "winen",
+          "wint",
+          "win"
+        ]
+      }
+    },
+    {
+      "id": "v051",
+      "base": "become",
+      "past": "became",
+      "participle": "become",
+      "meaning": "〜になる",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ビカム",
+        "past": "ビケイム",
+        "participle": "ビカム"
+      },
+      "examples": {
+        "past": {
+          "en": "She became a teacher.",
+          "ja": "彼女は先生になりました。"
+        },
+        "participle": {
+          "en": "She has become a teacher.",
+          "ja": "彼女は先生になりました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "became",
+          "become",
+          "becomed",
+          "becomeen",
+          "becomet"
+        ],
+        "participle": [
+          "become",
+          "became",
+          "becomed",
+          "becomeen",
+          "becomet"
+        ]
+      }
+    },
+    {
+      "id": "v052",
+      "base": "blow",
+      "past": "blew",
+      "participle": "blown",
+      "meaning": "吹く",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ブロウ",
+        "past": "ブルー",
+        "participle": "ブロウン"
+      },
+      "examples": {
+        "past": {
+          "en": "The wind blew hard.",
+          "ja": "風が強く吹きました。"
+        },
+        "participle": {
+          "en": "The wind has blown all day.",
+          "ja": "風が一日中吹いています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "blew",
+          "blown",
+          "blowed",
+          "blowen",
+          "blowt"
+        ],
+        "participle": [
+          "blown",
+          "blew",
+          "blowed",
+          "blowen",
+          "blowt"
+        ]
+      }
+    },
+    {
+      "id": "v053",
+      "base": "fly",
+      "past": "flew",
+      "participle": "flown",
+      "meaning": "飛ぶ",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "フライ",
+        "past": "フルー",
+        "participle": "フロウン"
+      },
+      "examples": {
+        "past": {
+          "en": "The bird flew away.",
+          "ja": "鳥は飛んでいきました。"
+        },
+        "participle": {
+          "en": "The bird has flown away.",
+          "ja": "鳥は飛んでいってしまいました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "flew",
+          "flown",
+          "flyed",
+          "flied",
+          "flyen"
+        ],
+        "participle": [
+          "flown",
+          "flew",
+          "flyed",
+          "flied",
+          "flyen"
+        ]
+      }
+    },
+    {
+      "id": "v054",
+      "base": "grow",
+      "past": "grew",
+      "participle": "grown",
+      "meaning": "育つ・育てる",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "グロウ",
+        "past": "グルー",
+        "participle": "グロウン"
+      },
+      "examples": {
+        "past": {
+          "en": "The flowers grew fast.",
+          "ja": "花は早く育ちました。"
+        },
+        "participle": {
+          "en": "The flowers have grown.",
+          "ja": "花が育ちました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "grew",
+          "grown",
+          "growed",
+          "growen",
+          "growt"
+        ],
+        "participle": [
+          "grown",
+          "grew",
+          "growed",
+          "growen",
+          "growt"
+        ]
+      }
+    },
+    {
+      "id": "v055",
+      "base": "hit",
+      "past": "hit",
+      "participle": "hit",
+      "meaning": "打つ・たたく",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ヒット",
+        "past": "ヒット",
+        "participle": "ヒット"
+      },
+      "examples": {
+        "past": {
+          "en": "I hit the ball.",
+          "ja": "私はボールを打ちました。"
+        },
+        "participle": {
+          "en": "I have hit the ball before.",
+          "ja": "私は以前そのボールを打ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "hit",
+          "hited",
+          "hiten",
+          "hitt",
+          "hi"
+        ],
+        "participle": [
+          "hit",
+          "hited",
+          "hiten",
+          "hitt",
+          "hi"
+        ]
+      }
+    },
+    {
+      "id": "v056",
+      "base": "hold",
+      "past": "held",
+      "participle": "held",
+      "meaning": "持つ・握る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ホウルド",
+        "past": "ヘルド",
+        "participle": "ヘルド"
+      },
+      "examples": {
+        "past": {
+          "en": "I held the baby.",
+          "ja": "私は赤ちゃんを抱きました。"
+        },
+        "participle": {
+          "en": "I have held a baby before.",
+          "ja": "私は以前赤ちゃんを抱いたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "held",
+          "holded",
+          "holden",
+          "holdt",
+          "hold"
+        ],
+        "participle": [
+          "held",
+          "holded",
+          "holden",
+          "holdt",
+          "hold"
+        ]
+      }
+    },
+    {
+      "id": "v057",
+      "base": "hurt",
+      "past": "hurt",
+      "participle": "hurt",
+      "meaning": "傷つける・痛む",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ハート",
+        "past": "ハート",
+        "participle": "ハート"
+      },
+      "examples": {
+        "past": {
+          "en": "My knee hurt yesterday.",
+          "ja": "昨日は膝が痛かったです。"
+        },
+        "participle": {
+          "en": "My knee has hurt all day.",
+          "ja": "膝が一日中痛いです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "hurt",
+          "hurted",
+          "hurten",
+          "hurtt",
+          "hur"
+        ],
+        "participle": [
+          "hurt",
+          "hurted",
+          "hurten",
+          "hurtt",
+          "hur"
+        ]
+      }
+    },
+    {
+      "id": "v058",
+      "base": "pay",
+      "past": "paid",
+      "participle": "paid",
+      "meaning": "支払う",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ペイ",
+        "past": "ペイド",
+        "participle": "ペイド"
+      },
+      "examples": {
+        "past": {
+          "en": "I paid for lunch.",
+          "ja": "私は昼食代を払いました。"
+        },
+        "participle": {
+          "en": "I have paid the bill.",
+          "ja": "私は支払いを済ませました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "paid",
+          "payed",
+          "payen",
+          "payt",
+          "pay"
+        ],
+        "participle": [
+          "paid",
+          "payed",
+          "payen",
+          "payt",
+          "pay"
+        ]
+      }
+    },
+    {
+      "id": "v059",
+      "base": "ride",
+      "past": "rode",
+      "participle": "ridden",
+      "meaning": "乗る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "ライド",
+        "past": "ロウド",
+        "participle": "リドゥン"
+      },
+      "examples": {
+        "past": {
+          "en": "I rode a bike.",
+          "ja": "私は自転車に乗りました。"
+        },
+        "participle": {
+          "en": "I have ridden a horse.",
+          "ja": "私は馬に乗ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "rode",
+          "ridden",
+          "rided",
+          "rideen",
+          "ridet"
+        ],
+        "participle": [
+          "ridden",
+          "rode",
+          "rided",
+          "rideen",
+          "ridet"
+        ]
+      }
+    },
+    {
+      "id": "v060",
+      "base": "sell",
+      "past": "sold",
+      "participle": "sold",
+      "meaning": "売る",
+      "type": "irregular",
+      "level": 3,
+      "reading": {
+        "base": "セル",
+        "past": "ソウルド",
+        "participle": "ソウルド"
+      },
+      "examples": {
+        "past": {
+          "en": "I sold my old bag.",
+          "ja": "私は古いかばんを売りました。"
+        },
+        "participle": {
+          "en": "I have sold some stocks.",
+          "ja": "私は株をいくつか売りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "sold",
+          "selled",
+          "sellen",
+          "sellt",
+          "sell"
+        ],
+        "participle": [
+          "sold",
+          "selled",
+          "sellen",
+          "sellt",
+          "sell"
+        ]
+      }
+    },
+    {
+      "id": "v061",
+      "base": "play",
+      "past": "played",
+      "participle": "played",
+      "meaning": "遊ぶ・演奏する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "プレイ",
+        "past": "プレイド",
+        "participle": "プレイド"
+      },
+      "examples": {
+        "past": {
+          "en": "I played the piano.",
+          "ja": "私はピアノを弾きました。"
+        },
+        "participle": {
+          "en": "I have played volleyball.",
+          "ja": "私はバレーボールをしたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "played",
+          "playen",
+          "playt",
+          "play",
+          "playeded"
+        ],
+        "participle": [
+          "played",
+          "playen",
+          "playt",
+          "play",
+          "playeded"
+        ]
+      }
+    },
+    {
+      "id": "v062",
+      "base": "like",
+      "past": "liked",
+      "participle": "liked",
+      "meaning": "好きである",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ライク",
+        "past": "ライクト",
+        "participle": "ライクト"
+      },
+      "examples": {
+        "past": {
+          "en": "I liked that cake.",
+          "ja": "私はそのケーキが好きでした。"
+        },
+        "participle": {
+          "en": "I have always liked cats.",
+          "ja": "私はずっと猫が好きです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "liked",
+          "likeen",
+          "liket",
+          "like",
+          "likeded"
+        ],
+        "participle": [
+          "liked",
+          "likeen",
+          "liket",
+          "like",
+          "likeded"
+        ]
+      }
+    },
+    {
+      "id": "v063",
+      "base": "love",
+      "past": "loved",
+      "participle": "loved",
+      "meaning": "大好きである",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ラヴ",
+        "past": "ラヴド",
+        "participle": "ラヴド"
+      },
+      "examples": {
+        "past": {
+          "en": "I loved the movie.",
+          "ja": "私はその映画が大好きでした。"
+        },
+        "participle": {
+          "en": "I have always loved sweets.",
+          "ja": "私は昔から甘いものが大好きです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "loved",
+          "loveen",
+          "lovet",
+          "love",
+          "loveded"
+        ],
+        "participle": [
+          "loved",
+          "loveen",
+          "lovet",
+          "love",
+          "loveded"
+        ]
+      }
+    },
+    {
+      "id": "v064",
+      "base": "want",
+      "past": "wanted",
+      "participle": "wanted",
+      "meaning": "欲しい・〜したい",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ウォント",
+        "past": "ウォンティド",
+        "participle": "ウォンティド"
+      },
+      "examples": {
+        "past": {
+          "en": "I wanted some tea.",
+          "ja": "私はお茶が欲しかったです。"
+        },
+        "participle": {
+          "en": "I have wanted this bag for years.",
+          "ja": "私は何年もこのかばんが欲しかったです。"
+        }
+      },
+      "choices": {
+        "past": [
+          "wanted",
+          "wanten",
+          "wantt",
+          "want",
+          "wanteded"
+        ],
+        "participle": [
+          "wanted",
+          "wanten",
+          "wantt",
+          "want",
+          "wanteded"
+        ]
+      }
+    },
+    {
+      "id": "v065",
+      "base": "work",
+      "past": "worked",
+      "participle": "worked",
+      "meaning": "働く",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ワーク",
+        "past": "ワークト",
+        "participle": "ワークト"
+      },
+      "examples": {
+        "past": {
+          "en": "I worked yesterday.",
+          "ja": "私は昨日働きました。"
+        },
+        "participle": {
+          "en": "I have worked here for years.",
+          "ja": "私はここで何年も働いています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "worked",
+          "worken",
+          "workt",
+          "work",
+          "workeded"
+        ],
+        "participle": [
+          "worked",
+          "worken",
+          "workt",
+          "work",
+          "workeded"
+        ]
+      }
+    },
+    {
+      "id": "v066",
+      "base": "walk",
+      "past": "walked",
+      "participle": "walked",
+      "meaning": "歩く",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ウォーク",
+        "past": "ウォークト",
+        "participle": "ウォークト"
+      },
+      "examples": {
+        "past": {
+          "en": "I walked to the park.",
+          "ja": "私は公園まで歩きました。"
+        },
+        "participle": {
+          "en": "I have walked a lot today.",
+          "ja": "私は今日たくさん歩きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "walked",
+          "walken",
+          "walkt",
+          "walk",
+          "walkeded"
+        ],
+        "participle": [
+          "walked",
+          "walken",
+          "walkt",
+          "walk",
+          "walkeded"
+        ]
+      }
+    },
+    {
+      "id": "v067",
+      "base": "look",
+      "past": "looked",
+      "participle": "looked",
+      "meaning": "見る",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ルック",
+        "past": "ルックト",
+        "participle": "ルックト"
+      },
+      "examples": {
+        "past": {
+          "en": "I looked at the sky.",
+          "ja": "私は空を見ました。"
+        },
+        "participle": {
+          "en": "I have looked at the picture.",
+          "ja": "私はその写真を見ました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "looked",
+          "looken",
+          "lookt",
+          "look",
+          "lookeded"
+        ],
+        "participle": [
+          "looked",
+          "looken",
+          "lookt",
+          "look",
+          "lookeded"
+        ]
+      }
+    },
+    {
+      "id": "v068",
+      "base": "watch",
+      "past": "watched",
+      "participle": "watched",
+      "meaning": "見る・観る",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ウォッチ",
+        "past": "ウォッチト",
+        "participle": "ウォッチト"
+      },
+      "examples": {
+        "past": {
+          "en": "I watched TV.",
+          "ja": "私はテレビを見ました。"
+        },
+        "participle": {
+          "en": "I have watched that show.",
+          "ja": "私はその番組を見たことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "watched",
+          "watchen",
+          "watcht",
+          "watch",
+          "watcheded"
+        ],
+        "participle": [
+          "watched",
+          "watchen",
+          "watcht",
+          "watch",
+          "watcheded"
+        ]
+      }
+    },
+    {
+      "id": "v069",
+      "base": "listen",
+      "past": "listened",
+      "participle": "listened",
+      "meaning": "聞く",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "リスン",
+        "past": "リスンド",
+        "participle": "リスンド"
+      },
+      "examples": {
+        "past": {
+          "en": "I listened to music.",
+          "ja": "私は音楽を聞きました。"
+        },
+        "participle": {
+          "en": "I have listened to this song.",
+          "ja": "私はこの歌を聞いたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "listened",
+          "listenen",
+          "listent",
+          "listen",
+          "listeneded"
+        ],
+        "participle": [
+          "listened",
+          "listenen",
+          "listent",
+          "listen",
+          "listeneded"
+        ]
+      }
+    },
+    {
+      "id": "v070",
+      "base": "talk",
+      "past": "talked",
+      "participle": "talked",
+      "meaning": "話す",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "トーク",
+        "past": "トークト",
+        "participle": "トークト"
+      },
+      "examples": {
+        "past": {
+          "en": "I talked to my friend.",
+          "ja": "私は友達と話しました。"
+        },
+        "participle": {
+          "en": "I have talked to ChatGPT today.",
+          "ja": "私は今日ChatGPTと話しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "talked",
+          "talken",
+          "talkt",
+          "talk",
+          "talkeded"
+        ],
+        "participle": [
+          "talked",
+          "talken",
+          "talkt",
+          "talk",
+          "talkeded"
+        ]
+      }
+    },
+    {
+      "id": "v071",
+      "base": "cook",
+      "past": "cooked",
+      "participle": "cooked",
+      "meaning": "料理する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "クック",
+        "past": "クックト",
+        "participle": "クックト"
+      },
+      "examples": {
+        "past": {
+          "en": "I cooked dinner.",
+          "ja": "私は夕食を作りました。"
+        },
+        "participle": {
+          "en": "I have cooked dinner.",
+          "ja": "私は夕食を作りました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "cooked",
+          "cookt",
+          "cooken",
+          "couk",
+          "cook"
+        ],
+        "participle": [
+          "cooked",
+          "cookt",
+          "cooken",
+          "cookeded",
+          "cook"
+        ]
+      }
+    },
+    {
+      "id": "v072",
+      "base": "clean",
+      "past": "cleaned",
+      "participle": "cleaned",
+      "meaning": "掃除する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "クリーン",
+        "past": "クリーンド",
+        "participle": "クリーンド"
+      },
+      "examples": {
+        "past": {
+          "en": "I cleaned my room.",
+          "ja": "私は部屋を掃除しました。"
+        },
+        "participle": {
+          "en": "I have cleaned the kitchen.",
+          "ja": "私は台所を掃除しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "cleaned",
+          "cleanen",
+          "cleant",
+          "clean",
+          "cleaneded"
+        ],
+        "participle": [
+          "cleaned",
+          "cleanen",
+          "cleant",
+          "clean",
+          "cleaneded"
+        ]
+      }
+    },
+    {
+      "id": "v073",
+      "base": "wash",
+      "past": "washed",
+      "participle": "washed",
+      "meaning": "洗う",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ウォッシュ",
+        "past": "ウォッシュト",
+        "participle": "ウォッシュト"
+      },
+      "examples": {
+        "past": {
+          "en": "I washed the dishes.",
+          "ja": "私は皿を洗いました。"
+        },
+        "participle": {
+          "en": "I have washed the dishes.",
+          "ja": "私は皿を洗いました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "washed",
+          "washen",
+          "washt",
+          "wash",
+          "washeded"
+        ],
+        "participle": [
+          "washed",
+          "washen",
+          "washt",
+          "wash",
+          "washeded"
+        ]
+      }
+    },
+    {
+      "id": "v074",
+      "base": "open",
+      "past": "opened",
+      "participle": "opened",
+      "meaning": "開ける",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "オウプン",
+        "past": "オウプンド",
+        "participle": "オウプンド"
+      },
+      "examples": {
+        "past": {
+          "en": "I opened the window.",
+          "ja": "私は窓を開けました。"
+        },
+        "participle": {
+          "en": "I have opened the window.",
+          "ja": "私は窓を開けました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "opened",
+          "openen",
+          "opent",
+          "open",
+          "openeded"
+        ],
+        "participle": [
+          "opened",
+          "openen",
+          "opent",
+          "open",
+          "openeded"
+        ]
+      }
+    },
+    {
+      "id": "v075",
+      "base": "close",
+      "past": "closed",
+      "participle": "closed",
+      "meaning": "閉める",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "クロウズ",
+        "past": "クロウズド",
+        "participle": "クロウズド"
+      },
+      "examples": {
+        "past": {
+          "en": "I closed the door.",
+          "ja": "私はドアを閉めました。"
+        },
+        "participle": {
+          "en": "I have closed the door.",
+          "ja": "私はドアを閉めました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "closed",
+          "closeen",
+          "closet",
+          "close",
+          "closeded"
+        ],
+        "participle": [
+          "closed",
+          "closeen",
+          "closet",
+          "close",
+          "closeded"
+        ]
+      }
+    },
+    {
+      "id": "v076",
+      "base": "use",
+      "past": "used",
+      "participle": "used",
+      "meaning": "使う",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ユーズ",
+        "past": "ユーズド",
+        "participle": "ユーズド"
+      },
+      "examples": {
+        "past": {
+          "en": "I used my phone.",
+          "ja": "私は携帯電話を使いました。"
+        },
+        "participle": {
+          "en": "I have used this app.",
+          "ja": "私はこのアプリを使ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "used",
+          "useen",
+          "uset",
+          "use",
+          "useded"
+        ],
+        "participle": [
+          "used",
+          "useen",
+          "uset",
+          "use",
+          "useded"
+        ]
+      }
+    },
+    {
+      "id": "v077",
+      "base": "live",
+      "past": "lived",
+      "participle": "lived",
+      "meaning": "住む",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "リヴ",
+        "past": "リヴド",
+        "participle": "リヴド"
+      },
+      "examples": {
+        "past": {
+          "en": "I lived in Tokyo.",
+          "ja": "私は東京に住んでいました。"
+        },
+        "participle": {
+          "en": "I have lived here for years.",
+          "ja": "私はここに何年も住んでいます。"
+        }
+      },
+      "choices": {
+        "past": [
+          "lived",
+          "liveen",
+          "livet",
+          "live",
+          "liveded"
+        ],
+        "participle": [
+          "lived",
+          "liveen",
+          "livet",
+          "live",
+          "liveded"
+        ]
+      }
+    },
+    {
+      "id": "v078",
+      "base": "study",
+      "past": "studied",
+      "participle": "studied",
+      "meaning": "勉強する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "スタディ",
+        "past": "スタディド",
+        "participle": "スタディド"
+      },
+      "examples": {
+        "past": {
+          "en": "I studied English.",
+          "ja": "私は英語を勉強しました。"
+        },
+        "participle": {
+          "en": "I have studied English today.",
+          "ja": "私は今日英語を勉強しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "studied",
+          "studyed",
+          "studed",
+          "studyen",
+          "studid"
+        ],
+        "participle": [
+          "studied",
+          "studyed",
+          "studed",
+          "studyen",
+          "studid"
+        ]
+      }
+    },
+    {
+      "id": "v079",
+      "base": "try",
+      "past": "tried",
+      "participle": "tried",
+      "meaning": "試す",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "トライ",
+        "past": "トライド",
+        "participle": "トライド"
+      },
+      "examples": {
+        "past": {
+          "en": "I tried a new cake.",
+          "ja": "私は新しいケーキを試しました。"
+        },
+        "participle": {
+          "en": "I have tried this game.",
+          "ja": "私はこのゲームを試したことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "tried",
+          "tryed",
+          "tryen",
+          "tryt",
+          "try"
+        ],
+        "participle": [
+          "tried",
+          "tryed",
+          "tryen",
+          "tryt",
+          "try"
+        ]
+      }
+    },
+    {
+      "id": "v080",
+      "base": "cry",
+      "past": "cried",
+      "participle": "cried",
+      "meaning": "泣く",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "クライ",
+        "past": "クライド",
+        "participle": "クライド"
+      },
+      "examples": {
+        "past": {
+          "en": "The baby cried.",
+          "ja": "赤ちゃんが泣きました。"
+        },
+        "participle": {
+          "en": "The baby has cried a lot today.",
+          "ja": "赤ちゃんは今日たくさん泣きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "cried",
+          "cryed",
+          "cryen",
+          "cryt",
+          "cry"
+        ],
+        "participle": [
+          "cried",
+          "cryed",
+          "cryen",
+          "cryt",
+          "cry"
+        ]
+      }
+    },
+    {
+      "id": "v081",
+      "base": "carry",
+      "past": "carried",
+      "participle": "carried",
+      "meaning": "運ぶ",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "キャリ",
+        "past": "キャリド",
+        "participle": "キャリド"
+      },
+      "examples": {
+        "past": {
+          "en": "I carried the bag.",
+          "ja": "私はかばんを運びました。"
+        },
+        "participle": {
+          "en": "I have carried this bag all day.",
+          "ja": "私はこのかばんを一日中持ち歩いています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "carried",
+          "carryed",
+          "carryen",
+          "carryt",
+          "carry"
+        ],
+        "participle": [
+          "carried",
+          "carryed",
+          "carryen",
+          "carryt",
+          "carry"
+        ]
+      }
+    },
+    {
+      "id": "v082",
+      "base": "stop",
+      "past": "stopped",
+      "participle": "stopped",
+      "meaning": "止まる・止める",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ストップ",
+        "past": "ストップト",
+        "participle": "ストップト"
+      },
+      "examples": {
+        "past": {
+          "en": "The bus stopped.",
+          "ja": "バスが止まりました。"
+        },
+        "participle": {
+          "en": "The rain has stopped.",
+          "ja": "雨がやみました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "stopped",
+          "stoped",
+          "stopen",
+          "stopt",
+          "stop"
+        ],
+        "participle": [
+          "stopped",
+          "stoped",
+          "stopen",
+          "stopt",
+          "stop"
+        ]
+      }
+    },
+    {
+      "id": "v083",
+      "base": "plan",
+      "past": "planned",
+      "participle": "planned",
+      "meaning": "計画する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "プラン",
+        "past": "プランド",
+        "participle": "プランド"
+      },
+      "examples": {
+        "past": {
+          "en": "I planned a trip.",
+          "ja": "私は旅行を計画しました。"
+        },
+        "participle": {
+          "en": "I have planned our trip.",
+          "ja": "私は私たちの旅行を計画しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "planned",
+          "planed",
+          "planen",
+          "plant",
+          "plan"
+        ],
+        "participle": [
+          "planned",
+          "planed",
+          "planen",
+          "plant",
+          "plan"
+        ]
+      }
+    },
+    {
+      "id": "v084",
+      "base": "shop",
+      "past": "shopped",
+      "participle": "shopped",
+      "meaning": "買い物する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ショップ",
+        "past": "ショップト",
+        "participle": "ショップト"
+      },
+      "examples": {
+        "past": {
+          "en": "I shopped yesterday.",
+          "ja": "私は昨日買い物をしました。"
+        },
+        "participle": {
+          "en": "I have shopped here before.",
+          "ja": "私は以前ここで買い物をしたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "shopped",
+          "shoped",
+          "shopen",
+          "shopt",
+          "shop"
+        ],
+        "participle": [
+          "shopped",
+          "shoped",
+          "shopen",
+          "shopt",
+          "shop"
+        ]
+      }
+    },
+    {
+      "id": "v085",
+      "base": "visit",
+      "past": "visited",
+      "participle": "visited",
+      "meaning": "訪れる",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ヴィジット",
+        "past": "ヴィジティド",
+        "participle": "ヴィジティド"
+      },
+      "examples": {
+        "past": {
+          "en": "I visited my friend.",
+          "ja": "私は友達を訪ねました。"
+        },
+        "participle": {
+          "en": "I have visited Kyoto.",
+          "ja": "私は京都を訪れたことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "visited",
+          "visiten",
+          "visitt",
+          "visit",
+          "visiteded"
+        ],
+        "participle": [
+          "visited",
+          "visiten",
+          "visitt",
+          "visit",
+          "visiteded"
+        ]
+      }
+    },
+    {
+      "id": "v086",
+      "base": "help",
+      "past": "helped",
+      "participle": "helped",
+      "meaning": "助ける・手伝う",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ヘルプ",
+        "past": "ヘルプト",
+        "participle": "ヘルプト"
+      },
+      "examples": {
+        "past": {
+          "en": "I helped my mother.",
+          "ja": "私は母を手伝いました。"
+        },
+        "participle": {
+          "en": "I have helped my friend.",
+          "ja": "私は友達を手伝いました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "helped",
+          "helpen",
+          "helpt",
+          "help",
+          "helpeded"
+        ],
+        "participle": [
+          "helped",
+          "helpen",
+          "helpt",
+          "help",
+          "helpeded"
+        ]
+      }
+    },
+    {
+      "id": "v087",
+      "base": "call",
+      "past": "called",
+      "participle": "called",
+      "meaning": "電話する・呼ぶ",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "コール",
+        "past": "コールド",
+        "participle": "コールド"
+      },
+      "examples": {
+        "past": {
+          "en": "I called my sister.",
+          "ja": "私は姉に電話しました。"
+        },
+        "participle": {
+          "en": "I have called my sister.",
+          "ja": "私は姉に電話しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "called",
+          "callen",
+          "callt",
+          "call",
+          "calleded"
+        ],
+        "participle": [
+          "called",
+          "callen",
+          "callt",
+          "call",
+          "calleded"
+        ]
+      }
+    },
+    {
+      "id": "v088",
+      "base": "ask",
+      "past": "asked",
+      "participle": "asked",
+      "meaning": "尋ねる・頼む",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "アスク",
+        "past": "アスクト",
+        "participle": "アスクト"
+      },
+      "examples": {
+        "past": {
+          "en": "I asked a question.",
+          "ja": "私は質問しました。"
+        },
+        "participle": {
+          "en": "I have asked ChatGPT.",
+          "ja": "私はChatGPTに質問しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "asked",
+          "asken",
+          "askt",
+          "ask",
+          "askeded"
+        ],
+        "participle": [
+          "asked",
+          "asken",
+          "askt",
+          "ask",
+          "askeded"
+        ]
+      }
+    },
+    {
+      "id": "v089",
+      "base": "answer",
+      "past": "answered",
+      "participle": "answered",
+      "meaning": "答える",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "アンサー",
+        "past": "アンサード",
+        "participle": "アンサード"
+      },
+      "examples": {
+        "past": {
+          "en": "I answered the question.",
+          "ja": "私は質問に答えました。"
+        },
+        "participle": {
+          "en": "I have answered the question.",
+          "ja": "私は質問に答えました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "answered",
+          "answeren",
+          "answert",
+          "answer",
+          "answereded"
+        ],
+        "participle": [
+          "answered",
+          "answeren",
+          "answert",
+          "answer",
+          "answereded"
+        ]
+      }
+    },
+    {
+      "id": "v090",
+      "base": "need",
+      "past": "needed",
+      "participle": "needed",
+      "meaning": "必要とする",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ニード",
+        "past": "ニーディド",
+        "participle": "ニーディド"
+      },
+      "examples": {
+        "past": {
+          "en": "I needed some help.",
+          "ja": "私は助けが必要でした。"
+        },
+        "participle": {
+          "en": "I have needed help before.",
+          "ja": "私は以前助けが必要だったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "needed",
+          "needen",
+          "needt",
+          "need",
+          "neededed"
+        ],
+        "participle": [
+          "needed",
+          "needen",
+          "needt",
+          "need",
+          "neededed"
+        ]
+      }
+    },
+    {
+      "id": "v091",
+      "base": "wait",
+      "past": "waited",
+      "participle": "waited",
+      "meaning": "待つ",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ウェイト",
+        "past": "ウェイティド",
+        "participle": "ウェイティド"
+      },
+      "examples": {
+        "past": {
+          "en": "I waited for the bus.",
+          "ja": "私はバスを待ちました。"
+        },
+        "participle": {
+          "en": "I have waited for an hour.",
+          "ja": "私は1時間待っています。"
+        }
+      },
+      "choices": {
+        "past": [
+          "waited",
+          "waiten",
+          "waitt",
+          "wait",
+          "waiteded"
+        ],
+        "participle": [
+          "waited",
+          "waiten",
+          "waitt",
+          "wait",
+          "waiteded"
+        ]
+      }
+    },
+    {
+      "id": "v092",
+      "base": "start",
+      "past": "started",
+      "participle": "started",
+      "meaning": "始める",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "スタート",
+        "past": "スターティド",
+        "participle": "スターティド"
+      },
+      "examples": {
+        "past": {
+          "en": "I started the game.",
+          "ja": "私はゲームを始めました。"
+        },
+        "participle": {
+          "en": "I have started learning English.",
+          "ja": "私は英語の勉強を始めました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "started",
+          "starten",
+          "startt",
+          "start",
+          "starteded"
+        ],
+        "participle": [
+          "started",
+          "starten",
+          "startt",
+          "start",
+          "starteded"
+        ]
+      }
+    },
+    {
+      "id": "v093",
+      "base": "finish",
+      "past": "finished",
+      "participle": "finished",
+      "meaning": "終える",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "フィニッシュ",
+        "past": "フィニッシュト",
+        "participle": "フィニッシュト"
+      },
+      "examples": {
+        "past": {
+          "en": "I finished my work.",
+          "ja": "私は仕事を終えました。"
+        },
+        "participle": {
+          "en": "I have finished my work.",
+          "ja": "私は仕事を終えました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "finished",
+          "finishen",
+          "finisht",
+          "finish",
+          "finisheded"
+        ],
+        "participle": [
+          "finished",
+          "finishen",
+          "finisht",
+          "finish",
+          "finisheded"
+        ]
+      }
+    },
+    {
+      "id": "v094",
+      "base": "enjoy",
+      "past": "enjoyed",
+      "participle": "enjoyed",
+      "meaning": "楽しむ",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "エンジョイ",
+        "past": "エンジョイド",
+        "participle": "エンジョイド"
+      },
+      "examples": {
+        "past": {
+          "en": "I enjoyed the party.",
+          "ja": "私はパーティーを楽しみました。"
+        },
+        "participle": {
+          "en": "I have enjoyed this game.",
+          "ja": "私はこのゲームを楽しんできました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "enjoyed",
+          "enjoyen",
+          "enjoyt",
+          "enjoy",
+          "enjoyeded"
+        ],
+        "participle": [
+          "enjoyed",
+          "enjoyen",
+          "enjoyt",
+          "enjoy",
+          "enjoyeded"
+        ]
+      }
+    },
+    {
+      "id": "v095",
+      "base": "move",
+      "past": "moved",
+      "participle": "moved",
+      "meaning": "動く・引っ越す",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ムーヴ",
+        "past": "ムーヴド",
+        "participle": "ムーヴド"
+      },
+      "examples": {
+        "past": {
+          "en": "I moved to a new house.",
+          "ja": "私は新しい家に引っ越しました。"
+        },
+        "participle": {
+          "en": "I have moved to a new house.",
+          "ja": "私は新しい家に引っ越しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "moved",
+          "moveen",
+          "movet",
+          "move",
+          "moveded"
+        ],
+        "participle": [
+          "moved",
+          "moveen",
+          "movet",
+          "move",
+          "moveded"
+        ]
+      }
+    },
+    {
+      "id": "v096",
+      "base": "change",
+      "past": "changed",
+      "participle": "changed",
+      "meaning": "変える・変わる",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "チェインジ",
+        "past": "チェインジド",
+        "participle": "チェインジド"
+      },
+      "examples": {
+        "past": {
+          "en": "I changed my plan.",
+          "ja": "私は予定を変更しました。"
+        },
+        "participle": {
+          "en": "I have changed my plan.",
+          "ja": "私は予定を変更しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "changed",
+          "changeen",
+          "changet",
+          "change",
+          "changeded"
+        ],
+        "participle": [
+          "changed",
+          "changeen",
+          "changet",
+          "change",
+          "changeded"
+        ]
+      }
+    },
+    {
+      "id": "v097",
+      "base": "arrive",
+      "past": "arrived",
+      "participle": "arrived",
+      "meaning": "到着する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "アライヴ",
+        "past": "アライヴド",
+        "participle": "アライヴド"
+      },
+      "examples": {
+        "past": {
+          "en": "I arrived at school.",
+          "ja": "私は学校に着きました。"
+        },
+        "participle": {
+          "en": "I have arrived home.",
+          "ja": "私は家に着きました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "arrived",
+          "arriveen",
+          "arrivet",
+          "arrive",
+          "arriveded"
+        ],
+        "participle": [
+          "arrived",
+          "arriveen",
+          "arrivet",
+          "arrive",
+          "arriveded"
+        ]
+      }
+    },
+    {
+      "id": "v098",
+      "base": "decide",
+      "past": "decided",
+      "participle": "decided",
+      "meaning": "決める",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ディサイド",
+        "past": "ディサイディド",
+        "participle": "ディサイディド"
+      },
+      "examples": {
+        "past": {
+          "en": "I decided to study.",
+          "ja": "私は勉強することに決めました。"
+        },
+        "participle": {
+          "en": "I have decided to go.",
+          "ja": "私は行くことに決めました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "decided",
+          "decideen",
+          "decidet",
+          "decide",
+          "decideded"
+        ],
+        "participle": [
+          "decided",
+          "decideen",
+          "decidet",
+          "decide",
+          "decideded"
+        ]
+      }
+    },
+    {
+      "id": "v099",
+      "base": "practice",
+      "past": "practiced",
+      "participle": "practiced",
+      "meaning": "練習する",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "プラクティス",
+        "past": "プラクティスト",
+        "participle": "プラクティスト"
+      },
+      "examples": {
+        "past": {
+          "en": "I practiced the piano.",
+          "ja": "私はピアノを練習しました。"
+        },
+        "participle": {
+          "en": "I have practiced the piano today.",
+          "ja": "私は今日ピアノを練習しました。"
+        }
+      },
+      "choices": {
+        "past": [
+          "practiced",
+          "practiceen",
+          "practicet",
+          "practice",
+          "practiceded"
+        ],
+        "participle": [
+          "practiced",
+          "practiceen",
+          "practicet",
+          "practice",
+          "practiceded"
+        ]
+      }
+    },
+    {
+      "id": "v100",
+      "base": "dance",
+      "past": "danced",
+      "participle": "danced",
+      "meaning": "踊る",
+      "type": "regular",
+      "level": 3,
+      "reading": {
+        "base": "ダンス",
+        "past": "ダンスト",
+        "participle": "ダンスト"
+      },
+      "examples": {
+        "past": {
+          "en": "I danced at the party.",
+          "ja": "私はパーティーで踊りました。"
+        },
+        "participle": {
+          "en": "I have danced here before.",
+          "ja": "私は以前ここで踊ったことがあります。"
+        }
+      },
+      "choices": {
+        "past": [
+          "danced",
+          "danceen",
+          "dancet",
+          "dance",
+          "danceded"
+        ],
+        "participle": [
+          "danced",
+          "danceen",
+          "dancet",
+          "dance",
+          "danceded"
+        ]
+      }
+    }
+  ]
+}
