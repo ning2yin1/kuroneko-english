@@ -16,7 +16,7 @@ try:
   page.set_default_timeout(8000)
   page.on('pageerror',lambda error:errors.append(str(error)))
   url='http://127.0.0.1:4174/'+root.name+'/'
-  page.goto(url)
+  page.goto(url+'#home')
   page.get_by_role('button',name='10問チャレンジをはじめる').wait_for()
   page.screenshot(path='/tmp/kuroneko-home.png',full_page=True)
   page.get_by_role('button',name='10問チャレンジをはじめる').click()
@@ -41,6 +41,9 @@ try:
    page.get_by_role('button',name='結果を見る' if i==9 else '次の問題へ').click()
   assert len(set(seen))==10
   page.get_by_role('heading',name='満点！すごいにゃ！').wait_for()
+  page.get_by_role('link',name='ホームに戻る',exact=True).click()
+  page.get_by_role('button',name='10問チャレンジをはじめる').wait_for()
+  assert page.locator('.hero').count()==1
   page.goto(url+'#words')
   page.locator('#search').fill(seen[0])
   assert page.locator('.learn.learned').count()>=1
@@ -71,6 +74,9 @@ try:
    page.get_by_role('button',name='結果を見る' if i==2 else '次の問題へ').click()
   assert '2 / 3' in page.locator('.score').inner_text()
   assert page.locator('.review-word').count()==1
+  page.get_by_role('link',name='ホームに戻る',exact=True).click()
+  page.get_by_role('button',name='10問チャレンジをはじめる').wait_for()
+  assert page.locator('.hero').count()==1
   page.evaluate("localStorage.setItem('kuroneko-english-v1',JSON.stringify({learned:"+json.dumps([v['id'] for v in verbs])+"}))")
   page.goto(url);page.reload()
   page.get_by_role('button',name='全100語のお祝いへ').click()

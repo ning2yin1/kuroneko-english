@@ -37,6 +37,8 @@ document.querySelector('#settings-dialog').addEventListener('input',e=>{if(e.tar
 document.addEventListener('pointerdown',()=>{if(bgm?.paused&&state?.settings.bgm)bgm.play().catch(()=>{});});
 document.addEventListener('visibilitychange',()=>{if(document.hidden){bgm?.pause();window.speechSynthesis?.cancel();}else if(bgm&&state.settings.bgm)bgm.play().catch(()=>{});});
 window.addEventListener('hashchange',navigate);
+// Quiz screens keep the current hash; clicking that same destination still needs navigation.
+document.addEventListener('click',e=>{const link=e.target.closest('a[href^="#"]');if(link&&link.hash===location.hash){e.preventDefault();navigate();}});
 const quitDialog=document.createElement('dialog');quitDialog.id='quit-dialog';quitDialog.innerHTML='<h2>クイズをおやすみする？</h2><p class="hint">ここまでの回答履歴と「覚えた」は保存されます。</p><button class="secondary" id="continue-quiz">続ける</button> <button class="secondary" id="leave-quiz">ホームへ</button>';document.body.append(quitDialog);document.querySelector('#continue-quiz').onclick=()=>quitDialog.close();document.querySelector('#leave-quiz').onclick=()=>{quitDialog.close();home();};
 async function init(){try{const response=await fetch('./verbs.json');if(!response.ok)throw new Error('data');verbs=(await response.json()).verbs;let raw;try{raw=JSON.parse(localStorage.getItem(key)||'null');}catch{raw=null;}state=normalizeState(raw,verbs);navigate();discoverBgm();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>toast('オフラインの準備ができませんでした。オンラインで引き続き使えます。'));}catch{main.innerHTML='<section class="card"><h1>読み込みできませんでした</h1><p>通信を確認して、もう一度開いてください。</p><button class="primary" id="retry">再読み込み</button></section>';document.querySelector('#retry').onclick=()=>location.reload();}}
 init();

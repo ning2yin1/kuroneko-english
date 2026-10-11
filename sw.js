@@ -1,4 +1,4 @@
-const VERSION='kuroneko-v4';
+const VERSION='kuroneko-v5';
 const ROOT=new URL('./',self.location.href);
 const FILES=['./','./index.html','./style.css','./app.js','./core.js','./verbs.json','./manifest.webmanifest','./assets/audio/tracks.json','./assets/audio/normal.mp3','./assets/audio/perfect.mp3','./assets/audio/result.mp3','./assets/kuroneko-illustrations.png','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
